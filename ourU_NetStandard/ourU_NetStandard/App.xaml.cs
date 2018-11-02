@@ -12,42 +12,29 @@ namespace ourU_NetStandard
 {
     public partial class App : Application
     {
-
-        public interface IAuthenticate
-        {
-            Task<bool> Authenticate();
-        }
-
-        public static IAuthenticate Authenticator { get; private set; }
         public static IAuthenticate AuthenticationProvider { get; private set; }
-        public static string AzureBackendUrl = "https://ouru.azurewebsites.net";    
-        public static MobileServiceClient MobileService = new MobileServiceClient(AzureBackendUrl);
 
+        public static UIParent UiParent = null;
 
         public static void Init(IAuthenticate authenticator)
         {
             Authenticator = authenticator;
         }
 
+
+        public static IAuthenticate Authenticator { get; private set; }
+        public static string AzureBackendUrl = "https://ouru.azurewebsites.net";    
+        public static MobileServiceClient client = new MobileServiceClient(AzureBackendUrl);
+        
         public App()
         {
-            InitializeComponent();
+            //InitializeComponent();
             MainPage = new LogInPage();
         }
 
-        protected override void OnActivated(IActivatedEventArgs args)
+        public static MobileServiceClient CurrentClient
         {
-            if (args.Kind == ActivationKind.Protocol)
-            {
-                ProtocolActivatedEventArgs protocolArgs = args as ProtocolActivatedEventArgs;
-                Frame content = Window.Current.Content as Frame;
-                if (content.Content.GetType() == typeof(MainPage))
-                {
-                    content.Navigate(typeof(MainPage), protocolArgs.Uri);
-                }
-            }
-            Window.Current.Activate();
-            base.OnActivated(args);
+            get { return client; }
         }
 
         protected override void OnStart()

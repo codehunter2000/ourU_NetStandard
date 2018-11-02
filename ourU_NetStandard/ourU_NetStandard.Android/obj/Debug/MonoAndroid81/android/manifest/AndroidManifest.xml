@@ -4,7 +4,15 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:label="ourU_NetStandard.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+  <application android:label="ourU_NetStandard.Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:name="com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity" android:launchMode="singleTop" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="{https://ouru.azurewebsites.net}" android:host="easyauth.callback" />
+      </intent-filter>
+    </activity>
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="ourU_NetStandard" android:theme="@style/MainTheme" android:name="md5892c5b3e8fab206a3cc59149783681ce.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -14,7 +22,6 @@
     <activity android:label="Web Authenticator" android:name="md5b35075ec980064f2973fda331128de90.FormAuthenticatorActivity" />
     <activity android:label="Web Authenticator" android:name="md5b35075ec980064f2973fda331128de90.WebAuthenticatorActivity" />
     <activity android:label="Web Authenticator Native Broswer" android:launchMode="singleTop" android:name="md5b35075ec980064f2973fda331128de90.WebAuthenticatorNativeBrowserActivity" />
-    <activity android:name="com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity" />
     <activity android:name="microsoft.identity.client.AuthenticationActivity" />
     <activity android:label="Sign in" android:name="md5d2b7405011a633069a1b6347c0fcf249.AuthenticationAgentActivity" />
     <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />

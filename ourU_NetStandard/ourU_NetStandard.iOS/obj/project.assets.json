@@ -1355,11 +1355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\source\\repos\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
       "projectName": "ourU_NetStandard.iOS",
-      "projectPath": "C:\\Users\\Gabriel\\source\\repos\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
+      "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
       "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\source\\repos\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1376,8 +1376,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Gabriel\\source\\repos\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj": {
-              "projectPath": "C:\\Users\\Gabriel\\source\\repos\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj"
+            "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj": {
+              "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj"
             }
           }
         }

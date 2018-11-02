@@ -14,7 +14,7 @@ namespace ourU_NetStandard.Views
 	{
 		public AboutPage ()
 		{
-			InitializeComponent ();
+			//InitializeComponent ();
 		}
 	}
 }

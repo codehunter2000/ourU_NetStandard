@@ -8,12 +8,28 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Microsoft.WindowsAzure.MobileServices;
 using Newtonsoft.Json.Linq;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace ourU_NetStandard.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class LogInPage : ContentPage
 	{
+         public interface IAuthenticate
+        {
+            Task<bool> Authenticate();
+        }
+
+        public static IAuthenticate Authenticator { get; private set; }
+        public static IAuthenticate AuthenticationProvider { get; private set; }
+        public static string AzureBackendUrl = "https://ouru.azurewebsites.net";    
+        public static MobileServiceClient MobileService = new MobileServiceClient(AzureBackendUrl);
+
+
+        public static void Init(IAuthenticate authenticator)
+        {
+            Authenticator = authenticator;
+        }
 
         // Track whether the user has authenticated.
         bool authenticated = false;
@@ -24,43 +40,11 @@ namespace ourU_NetStandard.Views
             InitializeComponent();
         }
 
-        // Define a member variable for storing the signed-in user. 
-        
-
-        // Define a method that performs the authentication process
-        // using a Facebook sign-in. 
-        private async System.Threading.Tasks.Task<bool> AuthenticateAsync()
+       async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            string message;
-            bool success = false;
-            try
+            if (App.Authenticator != null)
             {
-                // Change 'MobileService' to the name of your MobileServiceClient instance.
-                // Sign-in using Facebook authentication.
-                user = await App.MobileService
-                    .LoginAsync(MobileServiceAuthenticationProvider.Google, JObject.Parse(App.AzureBackendUrl));
-                message =
-                    string.Format("You are now signed in - {0}", user.UserId);
-
-                success = true;
-            }
-            catch (InvalidOperationException)
-            {
-                message = "You must log in. Login Required";
-            }
-            return success;
-        }
-
-        private async void ButtonLogin_Click(object sender, RoutedEventArgs e)
-        {
-            // Login the user and then load data from the mobile app.
-            if (await AuthenticateAsync())
-            {
-                // Switch the buttons and load items from the mobile app.
-                ButtonLogin.Visibility = Visibility.Collapsed;
-                ButtonSave.Visibility = Visibility.Visible;
-                //await InitLocalStoreAsync(); //offline sync support.
-                await RefreshTodoItems();
+                authenticated = await App.Authenticator.LoginAsync();
             }
         }
     }
