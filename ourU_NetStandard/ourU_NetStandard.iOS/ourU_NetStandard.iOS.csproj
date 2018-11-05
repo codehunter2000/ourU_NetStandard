@@ -145,7 +145,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\ourU_NetStandard\ourU_NetStandard.csproj">
-      <Project>{068AC1F3-FBB4-488A-8B8D-25638B208E26}</Project>
+      <Project>{16216527-F8BF-4421-96AB-012171DA0120}</Project>
       <Name>ourU_NetStandard</Name>
     </ProjectReference>
   </ItemGroup>

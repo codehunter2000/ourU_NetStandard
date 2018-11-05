@@ -44,7 +44,7 @@ namespace ourU_NetStandard.iOS
                 if (user == null)
                 {
                     user = await App.CurrentClient.LoginAsync(UIApplication.SharedApplication.KeyWindow.RootViewController,
-                        MobileServiceAuthenticationProvider.Google, "{https://ouru.azurewebsites.net}");
+                        MobileServiceAuthenticationProvider.Google, "https://ouru.azurewebsites.net");
                     if (user != null)
                     {
                         message = string.Format("You are now signed-in as {0}.", user.UserId);
