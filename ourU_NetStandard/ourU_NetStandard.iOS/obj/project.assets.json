@@ -15,6 +15,20 @@
           "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
+        }
+      },
       "Microsoft.Identity.Client/2.3.1-preview": {
         "type": "package",
         "frameworkAssemblies": [
@@ -100,6 +114,42 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.2",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
       "Validation/2.2.8": {
@@ -239,6 +289,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.2",
           "Microsoft.Identity.Client": "2.3.1-preview",
           "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.3.0.912540"
@@ -265,6 +316,20 @@
           "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
+        }
+      },
       "Microsoft.Identity.Client/2.3.1-preview": {
         "type": "package",
         "frameworkAssemblies": [
@@ -350,6 +415,42 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.2",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
       "Validation/2.2.8": {
@@ -489,6 +590,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.2",
           "Microsoft.Identity.Client": "2.3.1-preview",
           "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.3.0.912540"
@@ -515,6 +617,20 @@
           "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
+        }
+      },
       "Microsoft.Identity.Client/2.3.1-preview": {
         "type": "package",
         "frameworkAssemblies": [
@@ -600,6 +716,42 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.2",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
       "Validation/2.2.8": {
@@ -739,6 +891,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.2",
           "Microsoft.Identity.Client": "2.3.1-preview",
           "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.3.0.912540"
@@ -765,6 +918,20 @@
           "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
+        }
+      },
       "Microsoft.Identity.Client/2.3.1-preview": {
         "type": "package",
         "frameworkAssemblies": [
@@ -850,6 +1017,42 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.2",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
       "Validation/2.2.8": {
@@ -989,6 +1192,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.2",
           "Microsoft.Identity.Client": "2.3.1-preview",
           "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.3.0.912540"
@@ -1024,6 +1228,22 @@
         "lib/xamarinios10/Microsoft.Azure.Mobile.Client.xml",
         "microsoft.azure.mobile.client.4.0.2.nupkg.sha512",
         "microsoft.azure.mobile.client.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.2": {
+      "sha512": "EXXTgQxrirCyqqUvj2Qh3RIn3ZTHPxbfdYIrkZFEbzb7Qo+/Oj3GS9ttNlNXyOihFocDHHqYde7w0pg+91VHJQ==",
+      "type": "package",
+      "path": "microsoft.azure.mobile.client.sqlitestore/4.0.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
+        "lib/net45/Microsoft.Azure.Mobile.Client.SQLiteStore.xml",
+        "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
+        "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Microsoft.Azure.Mobile.Client.SQLiteStore.xml",
+        "microsoft.azure.mobile.client.sqlitestore.4.0.2.nupkg.sha512",
+        "microsoft.azure.mobile.client.sqlitestore.nuspec"
       ]
     },
     "Microsoft.Identity.Client/2.3.1-preview": {
@@ -1162,6 +1382,88 @@
         "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.xml",
         "pinvoke.windows.core.0.3.2.nupkg.sha512",
         "pinvoke.windows.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_green/1.1.2": {
+      "sha512": "5I3e6RKI4rtKEmGYbAEic7P9WaToYGS20acObyVfss+Mn8EWLIXEDk7EyBKl4OloL0J1uAVYEBDGBaJ7g7zEnQ==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/1.1.2",
+      "files": [
+        ".signature.p7s",
+        "build/wp8/SQLitePCLRaw.bundle_green.targets",
+        "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/arm/SQLitePCLRaw.batteries_v2.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_v2.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_green.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net35/SQLitePCLRaw.batteries_green.dll",
+        "lib/net35/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net40/SQLitePCLRaw.batteries_green.dll",
+        "lib/net40/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net45/SQLitePCLRaw.batteries_green.dll",
+        "lib/net45/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_green.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win8/SQLitePCLRaw.batteries_green.dll",
+        "lib/win8/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win81/SQLitePCLRaw.batteries_green.dll",
+        "lib/win81/SQLitePCLRaw.batteries_v2.dll",
+        "lib/wp8/_._",
+        "lib/wpa81/SQLitePCLRaw.batteries_green.dll",
+        "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.1.1.2.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/1.1.2": {
+      "sha512": "1E9T9SAFGy6rtV8DVVCg3PMdAtqTa+UlCwjCiJaQ2qZq6ykv05FmhbD8n9DQo44zvqw0w3JmM9YdTv/rj5GBCg==",
+      "type": "package",
+      "path": "sqlitepclraw.core/1.1.2",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/net35/SQLitePCLRaw.core.dll",
+        "lib/net40/SQLitePCLRaw.core.dll",
+        "lib/net45/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.0/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.core.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/uap10.0/SQLitePCLRaw.core.dll",
+        "lib/win8/SQLitePCLRaw.core.dll",
+        "lib/win81/SQLitePCLRaw.core.dll",
+        "lib/wpa81/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.1.1.2.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.2": {
+      "sha512": "xo+V0zedO6DE+m1c84fWAVLEmCBtAUBIy82sgFl1LuM58nqw7Y9Lg7GsK/6bq841pgOABdhUpxj2tBJBatsCIQ==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.sqlite3.ios_unified/1.1.2",
+      "files": [
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll",
+        "sqlitepclraw.provider.sqlite3.ios_unified.1.1.2.nupkg.sha512",
+        "sqlitepclraw.provider.sqlite3.ios_unified.nuspec"
       ]
     },
     "Validation/2.2.8": {

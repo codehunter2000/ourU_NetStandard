@@ -1065,6 +1065,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.2",
           "Microsoft.Identity.Client": "2.3.1-preview",
           "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.3.0.912540"

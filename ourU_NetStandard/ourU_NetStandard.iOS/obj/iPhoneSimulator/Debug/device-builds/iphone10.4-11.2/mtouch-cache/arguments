@@ -23,6 +23,8 @@
 	-r \
 	/Users/hunt043/.nuget/packages/microsoft.azure.mobile.client/4.0.2/lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll \
 	-r \
+	/Users/hunt043/.nuget/packages/microsoft.azure.mobile.client.sqlitestore/4.0.2/lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll \
+	-r \
 	/Users/hunt043/.nuget/packages/microsoft.identity.client/2.3.1-preview/lib/xamarinios10/Microsoft.Identity.Client.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
@@ -40,6 +42,14 @@
 	/Users/hunt043/.nuget/packages/pinvoke.ncrypt/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.NCrypt.dll \
 	-r \
 	/Users/hunt043/.nuget/packages/pinvoke.windows.core/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll \
+	-r \
+	/Users/hunt043/.nuget/packages/sqlitepclraw.bundle_green/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
+	-r \
+	/Users/hunt043/.nuget/packages/sqlitepclraw.bundle_green/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
+	-r \
+	/Users/hunt043/.nuget/packages/sqlitepclraw.core/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
+	-r \
+	/Users/hunt043/.nuget/packages/sqlitepclraw.provider.sqlite3.ios_unified/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -343,6 +353,8 @@
 	-r \
 	/Users/hunt043/.nuget/packages/microsoft.azure.mobile.client/4.0.2/lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll \
 	-r \
+	/Users/hunt043/.nuget/packages/microsoft.azure.mobile.client.sqlitestore/4.0.2/lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll \
+	-r \
 	/Users/hunt043/.nuget/packages/microsoft.identity.client/2.3.1-preview/lib/xamarinios10/Microsoft.Identity.Client.dll \
 	-r \
 	/Users/hunt043/.nuget/packages/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll \
@@ -356,6 +368,14 @@
 	/Users/hunt043/.nuget/packages/pinvoke.ncrypt/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.NCrypt.dll \
 	-r \
 	/Users/hunt043/.nuget/packages/pinvoke.windows.core/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll \
+	-r \
+	/Users/hunt043/.nuget/packages/sqlitepclraw.bundle_green/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
+	-r \
+	/Users/hunt043/.nuget/packages/sqlitepclraw.bundle_green/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
+	-r \
+	/Users/hunt043/.nuget/packages/sqlitepclraw.core/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
+	-r \
+	/Users/hunt043/.nuget/packages/sqlitepclraw.provider.sqlite3.ios_unified/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
 	-r \
 	/Users/hunt043/.nuget/packages/validation/2.2.8/lib/dotnet/Validation.dll \
 	-r \

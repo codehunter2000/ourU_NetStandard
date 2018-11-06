@@ -1,6 +1,7 @@
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/ourU_NetStandard.iOS.exe
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/ourU_NetStandard.iOS.pdb
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Client.dll
+/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Client.SQLiteStore.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Microsoft.Identity.Client.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PCLCrypto.dll
@@ -8,6 +9,10 @@
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll
+/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Validation.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb

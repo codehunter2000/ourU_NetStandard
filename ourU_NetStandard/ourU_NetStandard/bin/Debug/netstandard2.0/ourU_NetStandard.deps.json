@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "5c208ca3398305f0b4251554b928e2ad5d3bdd54"
+    "signature": "e23c9c8cf2ef25f61e98c32df45afb9f984ab969"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "ourU_NetStandard/1.0.0": {
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.2",
           "Microsoft.Identity.Client": "2.3.1-preview",
           "NETStandard.Library": "2.0.0",
           "Newtonsoft.Json": "11.0.2",
@@ -30,6 +31,16 @@
         },
         "runtime": {
           "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.dll": {}
+        }
+      },
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.2": {
+        "dependencies": {
+          "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "NETStandard.Library": "2.0.0",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
       "Microsoft.Identity.Client/2.3.1-preview": {
@@ -98,6 +109,24 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "SQLitePCLRaw.bundle_green/1.1.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0",
+          "SQLitePCLRaw.core": "1.1.2"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -709,6 +738,13 @@
       "path": "microsoft.azure.mobile.client/4.0.2",
       "hashPath": "microsoft.azure.mobile.client.4.0.2.nupkg.sha512"
     },
+    "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXXTgQxrirCyqqUvj2Qh3RIn3ZTHPxbfdYIrkZFEbzb7Qo+/Oj3GS9ttNlNXyOihFocDHHqYde7w0pg+91VHJQ==",
+      "path": "microsoft.azure.mobile.client.sqlitestore/4.0.2",
+      "hashPath": "microsoft.azure.mobile.client.sqlitestore.4.0.2.nupkg.sha512"
+    },
     "Microsoft.Identity.Client/2.3.1-preview": {
       "type": "package",
       "serviceable": true,
@@ -848,6 +884,20 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5I3e6RKI4rtKEmGYbAEic7P9WaToYGS20acObyVfss+Mn8EWLIXEDk7EyBKl4OloL0J1uAVYEBDGBaJ7g7zEnQ==",
+      "path": "sqlitepclraw.bundle_green/1.1.2",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.2.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1E9T9SAFGy6rtV8DVVCg3PMdAtqTa+UlCwjCiJaQ2qZq6ykv05FmhbD8n9DQo44zvqw0w3JmM9YdTv/rj5GBCg==",
+      "path": "sqlitepclraw.core/1.1.2",
+      "hashPath": "sqlitepclraw.core.1.1.2.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
