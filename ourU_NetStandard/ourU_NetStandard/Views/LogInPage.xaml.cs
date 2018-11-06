@@ -46,6 +46,11 @@ namespace ourU_NetStandard.Views
             {
                 authenticated = await App.Authenticator.LoginAsync();
             }
+
+            if (authenticated == true)
+            {
+                //App.Current.MainPage = HomePage;
+            }
         }
     }
 }
