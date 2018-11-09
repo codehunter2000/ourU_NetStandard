@@ -9,7 +9,8 @@ namespace ourU_NetStandard.ViewModels
 {
 	public class OurUPageViewModel : ContentPage
 	{
-		public OurUPageViewModel ()
+
+        public OurUPageViewModel ()
 		{
 			Content = new StackLayout {
 				Children = {

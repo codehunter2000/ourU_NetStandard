@@ -12,9 +12,9 @@ namespace ourU_NetStandard.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class OurUPage : ContentPage
 	{
-		public OurUPage ()
+		public OurUPage()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
 	}
 }

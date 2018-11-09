@@ -49,7 +49,8 @@ namespace ourU_NetStandard.Views
 
             if (authenticated == true)
             {
-                //App.Current.MainPage = HomePage;
+                Navigation.InsertPageBefore(new OurUPage(), this);
+                await Navigation.PopAsync();
             }
         }
     }

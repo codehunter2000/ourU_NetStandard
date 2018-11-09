@@ -13,6 +13,9 @@ namespace ourU_NetStandard.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
+        public HomePage()
+        {
+        }
 
         public HomePage(AuthenticationResult authenticationResult)
         {

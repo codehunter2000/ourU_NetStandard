@@ -29,7 +29,7 @@ namespace ourU_NetStandard
         public App()
         {
             //InitializeComponent();
-            MainPage = new LogInPage();
+            MainPage = new OurUPage();
         }
 
         public static MobileServiceClient CurrentClient
