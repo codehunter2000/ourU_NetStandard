@@ -9,12 +9,38 @@ using Xamarin.Forms.Xaml;
 
 namespace ourU_NetStandard.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class OurUPage : ContentPage
-	{
-		public OurUPage()
-		{
-			InitializeComponent();
-		}
-	}
+
+    public partial class OurUPage : ContentPage
+    {
+        public OurUPage()
+        {
+            InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
+        async void Login_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new LogInPage());
+        }
+
+        async void About_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new AboutPage());
+        }
+
+        async void Search_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
+
+        async void Personal_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new PersonalInfoPage());
+        }
+
+        async void AddNewBook_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new AddBookPage());
+        }
+    }
 }

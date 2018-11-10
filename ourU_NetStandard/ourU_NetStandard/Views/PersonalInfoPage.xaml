@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ourU_NetStandard.Views.PersonalInfoPage">
+    <ScrollView>
+        <StackLayout BackgroundColor="AliceBlue">
+            <Image Source="userimage.png"/>
+            <StackLayout Margin="10,10" BackgroundColor="Gray">
+                <StackLayout Margin="15,1" BackgroundColor="White" Orientation="Horizontal">
+                    <Label Text="FIRST"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"/>
+                    <Label Text="Bob"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Margin="15,1" BackgroundColor="White" Orientation="Horizontal">
+                    <Label Text="LAST"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"/>
+                    <Label Text="Jones"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Margin="15,1" BackgroundColor="White" Orientation="Horizontal">
+                    <Label Text="EMAIL"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"/>
+                    <Label Text="bjones278@gmail.com"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Margin="15,1" BackgroundColor="White" Orientation="Horizontal">
+                    <Label Text="Phone #"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"/>
+                    <Label Text="555-555-5555"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Margin="0,5">
+                <Label Text="Edit"/>
+                <Button Text="Change Password" FontSize="14" BackgroundColor="LawnGreen" CornerRadius="20" Margin="30, 0"/>
+                <Button Text="Log Out" FontSize="14" BackgroundColor="IndianRed" CornerRadius="20" Margin="30, 0"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

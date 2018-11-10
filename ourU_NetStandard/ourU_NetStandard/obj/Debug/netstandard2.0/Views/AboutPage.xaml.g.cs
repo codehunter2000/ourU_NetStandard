@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ourU_NetStandard.Views.AboutPage.xaml", "Views/AboutPage.xaml", typeof(global::OurU.Views.AboutPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ourU_NetStandard.Views.AboutPage.xaml", "Views/AboutPage.xaml", typeof(global::ourU_NetStandard.Views.AboutPage))]
 
-namespace OurU.Views {
+namespace ourU_NetStandard.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AboutPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/AboutPage.xaml")]
     public partial class AboutPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

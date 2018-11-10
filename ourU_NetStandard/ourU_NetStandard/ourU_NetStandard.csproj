@@ -45,4 +45,24 @@
     <Folder Include="Models\" />
     <Folder Include="Services\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ViewModels\AddBookPageViewModel.cs" />
+    <Compile Remove="ViewModels\HomePageViewModel.cs" />
+    <Compile Remove="ViewModels\LoginPageViewModel.cs" />
+    <Compile Remove="ViewModels\OurUPageViewModel.cs" />
+    <Compile Remove="ViewModels\SearchPageViewModel.cs" />
+    <Compile Remove="ViewModels\SearchPgeViewModel.cs" />
+    <Compile Remove="ViewModels\SignUpPageViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\SignUpPage.xaml.cs">
+      <DependentUpon>PersonalInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\PersonalInfo.xaml.cs">
+      <DependentUpon>PersonalInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\PersonalInfoPage.xaml.cs">
+      <DependentUpon>PersonalInfoPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

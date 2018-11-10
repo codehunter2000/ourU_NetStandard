@@ -12,9 +12,16 @@ namespace ourU_NetStandard.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class SearchPage : ContentPage
 	{
-		public SearchPage ()
+       
+        public SearchPage ()
 		{
 			InitializeComponent ();
 		}
+
+        async void AddBook_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new AddBookPage());
+        }
+
 	}
 }

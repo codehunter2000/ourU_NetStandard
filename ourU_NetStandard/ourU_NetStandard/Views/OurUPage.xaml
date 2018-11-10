@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -23,20 +23,18 @@
 
                     <BoxView HeightRequest="3"/>
 
-                    <Button Text="Login Page" FontSize="20" BackgroundColor="#7f0000" TextColor="White" Command="{Binding NavigateToLoginCommand}"/>
-                    <Button Text="Create Password Page" FontSize="20" BackgroundColor="#7f0000" TextColor="White" Command="{Binding NavigateToCreatePasswordCommand}"/>
-                    <Button Text="Enter Personal Info Page" FontSize="20" BackgroundColor="#7f0000" TextColor="White"/>
+                    <Button Text="Login Page" FontSize="20" BackgroundColor="#7f0000" TextColor="White" Clicked="Login_Clicked"/>
                     <BoxView HeightRequest="9"/>
-                    <Button Text="Tabbed Version" FontSize="20" BackgroundColor="Black" TextColor="White" Command="{Binding NavigateToTabContainerCommand}"/>
+                    <Button Text="Tabbed Version" FontSize="20" BackgroundColor="Black" TextColor="White"/>
                     <BoxView HeightRequest="9"/>
-                    <Button Text="Book Search/List Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Command="{Binding NavigateToBookSearchCommand}"/>
-                    <Button Text="Personal Info Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Command="{Binding NavigateToPersonalInfoCommand}"/>
-                    <Button Text="Sell Book Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Command="{Binding NavigateToSellCommand}"/>
-                    <Button Text="Help/About Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Command="{Binding NavigateToAboutCommand}"/>
+                    <Button Text="Book Search/List Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="Search_Clicked"/>
+                    <Button Text="Personal Info Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="Personal_Clicked"/>
+                    <Button Text="Sell Book Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" />
+                    <Button Text="Help/About Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="About_Clicked"/>
                     <BoxView HeightRequest="9"/>
                     <Button Text="Change Password Page" FontSize="20" BackgroundColor="#66b2ff"/>
                     <Button Text="Edit Page" FontSize="20" BackgroundColor="#66b2ff"/>
-                    <Button Text="+ New Book Page" FontSize="20" BackgroundColor="#66b2ff" Command="{Binding NavigateToNewBookCommand}"/>
+                    <Button Text="+ New Book Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="AddNewBook_Clicked"/>
                     <Button Text="Book Item Page" FontSize="20" BackgroundColor="#66b2ff"/>
                     <Button Text="Add Book Listing Page" FontSize="20" BackgroundColor="#66b2ff"/>
                     <Button Text="Individual Book listing Page" FontSize="20" BackgroundColor="#66b2ff"/>
