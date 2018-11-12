@@ -26,25 +26,33 @@ namespace ourU_NetStandard.Services
         public async Task<IEnumerable> GetBooks()
         {
             await SyncBook();
-            return await bookTable.OrderBy(c => c.theISBN).ToEnumerableAsync();
+            return await bookTable.ToListAsync();
         }
 
-        public async Task AddBook(string isbn, string author, string title,
+        public async Task<bool> AddBook(string isbn, string author, string title,
                                  string price, string status, string edition)
         {
-            var toAdd = new Models.Book
+            try
             {
-                theISBN = isbn,
-                theAuthor = author,
-                theTitle = title,
-                thePrice = price,
-                theStatus = status,
-                theEdition = edition
-            };
+                var toAdd = new Models.Book
+                {
+                    theISBN = isbn,
+                    theAuthor = author,
+                    theTitle = title,
+                    thePrice = price,
+                    theStatus = status,
+                    theEdition = edition
+                };
 
-            await bookTable.InsertAsync(toAdd);
+                await bookTable.InsertAsync(toAdd);
+                await SyncBook();
+                return true;
+            }
 
-            await SyncBook();
+            catch
+            {
+                return false;
+            }
 
         }
 

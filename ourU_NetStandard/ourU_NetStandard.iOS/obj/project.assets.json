@@ -1652,31 +1652,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/kakon002/.nuget/packages/": {}
+    "C:\\Users\\Gabriel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
       "projectName": "ourU_NetStandard.iOS",
-      "projectPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
-      "packagesPath": "/Users/kakon002/.nuget/packages/",
-      "outputPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj",
+      "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
+      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/kakon002/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
-              "projectPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
+            "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj": {
+              "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj"
             }
           }
         }
@@ -1687,19 +1690,19 @@
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": {
             "target": "Package",
-            "version": "4.0.2"
+            "version": "[4.0.2, )"
           },
           "Microsoft.Identity.Client": {
             "target": "Package",
-            "version": "2.3.1-preview"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.3.0.912540"
+            "version": "[2.3.1-preview, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.3.0.912540, )"
           }
         }
       }

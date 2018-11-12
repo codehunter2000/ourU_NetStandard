@@ -4,20 +4,16 @@
              x:Class="ourU_NetStandard.Views.AddBookPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text= "{Binding ISBN}" />
-            <Entry x:Name="bookISBNEntry" Placeholder="ISBN" />
-            <Label Text= "{Binding Title}" />
-            <Entry x:Name="bookTitleEntry" Placeholder="Title" />
-            <Label Text="{Binding Author}" />
-            <Entry x:Name="bookAuthorEntry" Placeholder="Author" />
-            <Label Text="{Binding Status}" />
-            <Entry x:Name="bookStatusEntry" Placeholder="Condition (new, worn, etc.)" />
-            <Label Text="{Binding Class}" />
-            <Entry x:Name="bookClassEntry" Placeholder="Class" />
-            <Label Text= "{Binding Edition}" />
-            <Entry x:Name="bookEditionEntry" Placeholder="Edition" />
-            <Button Text="List"  />
-            <Label x:Name="listLabel" />
+          <Entry x:Name="bookISBNEntry" Placeholder="ISBN" />
+          <Entry x:Name="bookTitleEntry" Placeholder="Title" />
+          <Entry x:Name="bookAuthorEntry" Placeholder="Author" />
+          <Entry x:Name="bookStatusEntry" Placeholder="Condition (new, worn, etc.)" />
+          <Entry x:Name="bookClassEntry" Placeholder="Class" />
+          <Entry x:Name="bookEditionEntry" Placeholder="Edition" />
+          <Entry x:Name="bookPriceEntry" Placeholder="Price" />
+          <Button Text="List it!" VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center" Clicked="ListBook_Clicked"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
