@@ -16,11 +16,12 @@ namespace ourU_NetStandard.Services
 
         public async Task Initialize()
         {
-            MobileService = new MobileServiceClient("https://ouru.azurewebsites.net");
+            MobileService = new MobileServiceClient("http://ouru.azurewebsites.net/");
             const string path = "Books.db";
             var store = new MobileServiceSQLiteStore(path);
             store.DefineTable<Models.Book>();
             await MobileService.SyncContext.InitializeAsync(store, new MobileServiceSyncHandler());
+            bookTable = MobileService.GetSyncTable<Models.Book>();
         }
 
         public async Task<IEnumerable> GetBooks()
@@ -29,23 +30,11 @@ namespace ourU_NetStandard.Services
             return await bookTable.ToListAsync();
         }
 
-        public async Task<bool> AddBook(string isbn, string author, string title,
-                                 string price, string status, string edition, string theClass)
+        public async Task<bool> AddBook(Models.Book newBook)
         {
             try
             {
-                var toAdd = new Models.Book
-                {
-                    theISBN = isbn,
-                    theAuthor = author,
-                    theTitle = title,
-                    thePrice = price,
-                    theStatus = status,
-                    theEdition = edition,
-                    theClass = theClass
-                };
-
-                await bookTable.InsertAsync(toAdd);
+                await bookTable.InsertAsync(newBook);
                 await SyncBook();
                 return true;
             }

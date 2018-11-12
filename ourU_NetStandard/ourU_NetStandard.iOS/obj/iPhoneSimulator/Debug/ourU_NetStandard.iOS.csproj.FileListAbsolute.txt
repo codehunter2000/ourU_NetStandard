@@ -154,6 +154,7 @@
 /Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.exe
 /Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.pdb
+C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\SQLitePCL.Ext.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\ourU_NetStandard.iOS.exe
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\ourU_NetStandard.iOS.pdb
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\Microsoft.Azure.Mobile.Client.dll
@@ -165,6 +166,7 @@ C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStan
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\PInvoke.Kernel32.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\PInvoke.NCrypt.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\PInvoke.Windows.Core.dll
+C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\SQLitePCL.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
@@ -225,4 +227,3 @@ C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStan
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\obj\iPhoneSimulator\Debug\ourU_NetStandard.iOS.csproj.CopyComplete
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\obj\iPhoneSimulator\Debug\ourU_NetStandard.iOS.exe
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\obj\iPhoneSimulator\Debug\ourU_NetStandard.iOS.pdb
-C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\ourU_NetStandard.dll.mdb

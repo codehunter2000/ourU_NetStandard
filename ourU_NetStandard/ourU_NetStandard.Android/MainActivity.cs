@@ -25,6 +25,7 @@ namespace ourU_NetStandard.Droid
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+            SQLitePCL.Batteries.Init();
             App.Init((IAuthenticate)this);
             LoadApplication(new App());
         }

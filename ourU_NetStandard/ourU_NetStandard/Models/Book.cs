@@ -4,14 +4,11 @@ using Xamarin.Forms;
 
 namespace ourU_NetStandard.Models
 {
-    public class Book : ContentPage
+    public class Book
     {
 
         [Newtonsoft.Json.JsonProperty("Id")]
         public string theISBN;
-
-        [Microsoft.WindowsAzure.MobileServices.Version]
-        public string AzureVersion { get; set; }
 
         public string theAuthor;
 

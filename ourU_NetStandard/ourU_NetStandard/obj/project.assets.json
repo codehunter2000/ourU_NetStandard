@@ -249,6 +249,19 @@
           }
         }
       },
+      "SQLitePCL/3.8.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SQLitePCL.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SQLitePCL.dll": {}
+        },
+        "build": {
+          "build/net45/SQLitePCL.props": {},
+          "build/net45/SQLitePCL.targets": {}
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.2": {
         "type": "package",
         "dependencies": {
@@ -1120,7 +1133,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -1566,6 +1579,84 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "SQLitePCL/3.8.7.2": {
+      "sha512": "pKx88TGyseoOwaNGDX2ZwKmwrIk8j6rqrxlxzdagdr4GBvzc3uBoUsU2liPAIAdDYGR2bdgHJd7TqLATkx3FSw==",
+      "type": "package",
+      "path": "sqlitepcl/3.8.7.2",
+      "files": [
+        ".signature.p7s",
+        "build/MonoAndroid/_._",
+        "build/MonoTouch/_._",
+        "build/Xamarin.iOS10/_._",
+        "build/net45/SQLitePCL.Ext.dll",
+        "build/net45/SQLitePCL.props",
+        "build/net45/SQLitePCL.targets",
+        "build/netcore45/SQLitePCL.Ext.dll",
+        "build/netcore45/SQLitePCL.Ext.pri",
+        "build/netcore45/SQLitePCL.props",
+        "build/netcore45/SQLitePCL.targets",
+        "build/netcore451/SQLitePCL.Ext.dll",
+        "build/netcore451/SQLitePCL.Ext.pri",
+        "build/netcore451/SQLitePCL.props",
+        "build/netcore451/SQLitePCL.targets",
+        "build/portable-net45+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/_._",
+        "build/wp8/ARM/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.dll",
+        "build/wp8/ARM/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.winmd",
+        "build/wp8/ARM/SQLitePCL.Ext.dll",
+        "build/wp8/SQLitePCL.props",
+        "build/wp8/SQLitePCL.targets",
+        "build/wp8/x86/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.dll",
+        "build/wp8/x86/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.winmd",
+        "build/wp8/x86/SQLitePCL.Ext.dll",
+        "build/wp81/ARM/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.dll",
+        "build/wp81/ARM/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.winmd",
+        "build/wp81/ARM/SQLitePCL.Ext.dll",
+        "build/wp81/SQLitePCL.props",
+        "build/wp81/SQLitePCL.targets",
+        "build/wp81/x86/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.dll",
+        "build/wp81/x86/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.winmd",
+        "build/wp81/x86/SQLitePCL.Ext.dll",
+        "build/wpa81/SQLitePCL.Ext.dll",
+        "build/wpa81/SQLitePCL.Ext.pri",
+        "build/wpa81/SQLitePCL.props",
+        "build/wpa81/SQLitePCL.targets",
+        "lib/MonoAndroid/SQLitePCL.Ext.dll",
+        "lib/MonoAndroid/SQLitePCL.dll",
+        "lib/MonoTouch/SQLitePCL.Ext.dll",
+        "lib/MonoTouch/SQLitePCL.dll",
+        "lib/Xamarin.iOS10/SQLitePCL.Ext.dll",
+        "lib/Xamarin.iOS10/SQLitePCL.dll",
+        "lib/net45/SQLitePCL.dll",
+        "lib/netcore45/SQLitePCL.dll",
+        "lib/netcore451/SQLitePCL.dll",
+        "lib/portable-net45+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/SQLitePCL.dll",
+        "lib/wp8/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.dll",
+        "lib/wp8/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.winmd",
+        "lib/wp8/SQLitePCL.dll",
+        "lib/wp81/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.dll",
+        "lib/wp81/SQLitePCL.Ext.WindowsPhone8.RuntimeProxy.winmd",
+        "lib/wp81/SQLitePCL.dll",
+        "lib/wpa81/SQLitePCL.dll",
+        "readme.txt",
+        "sqlitepcl.3.8.7.2.nupkg.sha512",
+        "sqlitepcl.nuspec",
+        "tools/MonoAndroid/install.ps1",
+        "tools/MonoTouch/install.ps1",
+        "tools/Xamarin.iOS10/install.ps1",
+        "tools/net45/install.ps1",
+        "tools/netcore45/install.ps1",
+        "tools/netcore45/uninstall.ps1",
+        "tools/netcore451/install.ps1",
+        "tools/netcore451/uninstall.ps1",
+        "tools/portable-net45+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/install.ps1",
+        "tools/wp8/install.ps1",
+        "tools/wp8/uninstall.ps1",
+        "tools/wp81/install.ps1",
+        "tools/wp81/uninstall.ps1",
+        "tools/wpa81/install.ps1",
+        "tools/wpa81/uninstall.ps1"
       ]
     },
     "SQLitePCLRaw.bundle_green/1.1.2": {
@@ -4330,10 +4421,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Xamarin.Forms/3.3.0.912540": {
-      "sha512": "Vm3JZ2Vd6u77eIw7XYQY6Ok89DghibebbdrUX/I1z6aJ9ZMJFBJjqwsIlYbpN4BNCm08UqaieG8BrqArJpIMnQ==",
+    "Xamarin.Forms/3.3.0.967583": {
+      "sha512": "aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
       "type": "package",
-      "path": "xamarin.forms/3.3.0.912540",
+      "path": "xamarin.forms/3.3.0.967583",
       "files": [
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -4359,13 +4450,11 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -4473,7 +4562,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.3.0.912540.nupkg.sha512",
+        "xamarin.forms.3.3.0.967583.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -4485,7 +4574,8 @@
       "Microsoft.Identity.Client >= 2.3.1-preview",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 11.0.2",
-      "Xamarin.Forms >= 3.3.0.912540"
+      "SQLitePCL >= 3.8.7.2",
+      "Xamarin.Forms >= 3.3.0.967583"
     ]
   },
   "packageFolders": {
@@ -4551,9 +4641,13 @@
             "target": "Package",
             "version": "[11.0.2, )"
           },
+          "SQLitePCL": {
+            "target": "Package",
+            "version": "[3.8.7.2, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.3.0.912540, )"
+            "version": "[3.3.0.967583, )"
           }
         },
         "imports": [
@@ -4563,5 +4657,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SQLitePCL 3.8.7.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SQLitePCL",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

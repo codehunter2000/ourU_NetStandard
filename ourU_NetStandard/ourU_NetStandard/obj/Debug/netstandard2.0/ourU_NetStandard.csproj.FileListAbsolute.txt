@@ -16,6 +16,7 @@
 /Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/ourU_NetStandard.dll
 /Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/ourU_NetStandard.pdb
 /Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/PersonalInfoPage.xaml.g.cs
+C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\bin\Debug\netstandard2.0\SQLitePCL.Ext.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\bin\Debug\netstandard2.0\ourU_NetStandard.deps.json
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\bin\Debug\netstandard2.0\ourU_NetStandard.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\bin\Debug\netstandard2.0\ourU_NetStandard.pdb

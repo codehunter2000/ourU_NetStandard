@@ -13,6 +13,7 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)xamarin.forms\3.3.0.912540\build\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\3.3.0.912540\build\Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\3.3.0.967583\build\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\3.3.0.967583\build\Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)sqlitepcl\3.8.7.2\build\net45\SQLitePCL.props" Condition="Exists('$(NuGetPackageRoot)sqlitepcl\3.8.7.2\build\net45\SQLitePCL.props')" />
   </ImportGroup>
 </Project>

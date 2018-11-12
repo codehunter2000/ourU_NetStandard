@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "df377bbf96c5c89b992e92a9931253e920622ef3"
+    "signature": "8315866762afc3a098b907be4739cd333bb1010f"
   },
   "compilationOptions": {},
   "targets": {
@@ -14,7 +14,8 @@
           "Microsoft.Identity.Client": "2.3.1-preview",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "11.0.2",
-          "Xamarin.Forms": "3.3.0.912540"
+          "SQLitePCL": "3.8.7.2",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "runtime": {
           "ourU_NetStandard.dll": {}
@@ -121,6 +122,14 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "SQLitePCL/3.8.7.2": {
+        "runtime": {
+          "lib/net45/SQLitePCL.dll": {
+            "assemblyVersion": "3.8.7.2",
+            "fileVersion": "3.8.7.2"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.2": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
@@ -809,7 +818,7 @@
           }
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -986,6 +995,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "SQLitePCL/3.8.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pKx88TGyseoOwaNGDX2ZwKmwrIk8j6rqrxlxzdagdr4GBvzc3uBoUsU2liPAIAdDYGR2bdgHJd7TqLATkx3FSw==",
+      "path": "sqlitepcl/3.8.7.2",
+      "hashPath": "sqlitepcl.3.8.7.2.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_green/1.1.2": {
       "type": "package",
@@ -1337,12 +1353,12 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Xamarin.Forms/3.3.0.912540": {
+    "Xamarin.Forms/3.3.0.967583": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Vm3JZ2Vd6u77eIw7XYQY6Ok89DghibebbdrUX/I1z6aJ9ZMJFBJjqwsIlYbpN4BNCm08UqaieG8BrqArJpIMnQ==",
-      "path": "xamarin.forms/3.3.0.912540",
-      "hashPath": "xamarin.forms.3.3.0.912540.nupkg.sha512"
+      "sha512": "sha512-aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
+      "path": "xamarin.forms/3.3.0.967583",
+      "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
     }
   }
 }
