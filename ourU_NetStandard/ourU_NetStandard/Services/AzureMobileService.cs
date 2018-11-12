@@ -17,7 +17,7 @@ namespace ourU_NetStandard.Services
         public async Task Initialize()
         {
             MobileService = new MobileServiceClient("https://ouru.azurewebsites.net");
-            const string path = "books.db";
+            const string path = "Books.db";
             var store = new MobileServiceSQLiteStore(path);
             store.DefineTable<Models.Book>();
             await MobileService.SyncContext.InitializeAsync(store, new MobileServiceSyncHandler());
@@ -30,7 +30,7 @@ namespace ourU_NetStandard.Services
         }
 
         public async Task<bool> AddBook(string isbn, string author, string title,
-                                 string price, string status, string edition)
+                                 string price, string status, string edition, string theClass)
         {
             try
             {
@@ -41,7 +41,8 @@ namespace ourU_NetStandard.Services
                     theTitle = title,
                     thePrice = price,
                     theStatus = status,
-                    theEdition = edition
+                    theEdition = edition,
+                    theClass = theClass
                 };
 
                 await bookTable.InsertAsync(toAdd);

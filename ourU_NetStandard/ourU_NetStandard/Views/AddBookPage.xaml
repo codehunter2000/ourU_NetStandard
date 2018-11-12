@@ -3,17 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ourU_NetStandard.Views.AddBookPage">
     <ContentPage.Content>
-        <StackLayout>
-          <Entry x:Name="bookISBNEntry" Placeholder="ISBN" />
-          <Entry x:Name="bookTitleEntry" Placeholder="Title" />
-          <Entry x:Name="bookAuthorEntry" Placeholder="Author" />
-          <Entry x:Name="bookStatusEntry" Placeholder="Condition (new, worn, etc.)" />
-          <Entry x:Name="bookClassEntry" Placeholder="Class" />
-          <Entry x:Name="bookEditionEntry" Placeholder="Edition" />
-          <Entry x:Name="bookPriceEntry" Placeholder="Price" />
-          <Button Text="List it!" VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center" Clicked="ListBook_Clicked"/>
-            
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+            <Entry x:Name="bookISBNEntry" Placeholder="ISBN" />
+            <Entry x:Name="bookTitleEntry" Placeholder="Title" />
+            <Entry x:Name="bookAuthorEntry" Placeholder="Author" />
+            <Entry x:Name="bookStatusEntry" Placeholder="Condition (new, worn, etc.)" />
+            <Entry x:Name="bookClassEntry" Placeholder="Class" />
+            <Entry x:Name="bookEditionEntry" Placeholder="Edition" />
+            <Entry x:Name="bookPriceEntry" Placeholder="Price" />
+            <Button Text="List it!" VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="Center" Clicked="ListBook_Clicked"/>
+          </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

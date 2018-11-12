@@ -23,6 +23,7 @@ namespace ourU_NetStandard.Models
 
         public string theEdition;
 
+        public string theClass;
 
     }
 }
