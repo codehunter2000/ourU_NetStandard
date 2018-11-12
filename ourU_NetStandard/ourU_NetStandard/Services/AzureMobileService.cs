@@ -16,7 +16,7 @@ namespace ourU_NetStandard.Services
 
         public async Task Initialize()
         {
-            MobileService = new MobileServiceClient("http://ouru.azurewebsites.net/");
+            MobileService = new MobileServiceClient("https://ouru.azurewebsites.net");
             const string path = "Books.db";
             var store = new MobileServiceSQLiteStore(path);
             store.DefineTable<Models.Book>();
@@ -39,7 +39,13 @@ namespace ourU_NetStandard.Services
                 return true;
             }
 
-            catch
+            catch (MobileServiceInvalidOperationException ex)
+            {
+                await ex.Response.Content.ReadAsStringAsync();
+                return false;
+            }
+
+            catch (Exception e)
             {
                 return false;
             }
