@@ -34,19 +34,16 @@ namespace ourU_NetStandard.Services
         {
             try
             {
+               
                 await bookTable.InsertAsync(newBook);
                 await SyncBook();
                 return true;
             }
 
-            catch (MobileServiceInvalidOperationException ex)
-            {
-                await ex.Response.Content.ReadAsStringAsync();
-                return false;
-            }
-
+           
             catch (Exception e)
             {
+                string result = e.Message.ToString();
                 return false;
             }
 
