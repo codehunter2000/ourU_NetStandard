@@ -4525,20 +4525,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gabri\\.nuget\\packages\\": {}
+    "C:\\Users\\Gabriel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.Android\\ourU_NetStandard.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.Android\\ourU_NetStandard.Android.csproj",
       "projectName": "ourU_NetStandard.Android",
-      "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.Android\\ourU_NetStandard.Android.csproj",
-      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.Android\\obj\\",
+      "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.Android\\ourU_NetStandard.Android.csproj",
+      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4551,8 +4551,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\gabri\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj": {
-              "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj"
+            "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj": {
+              "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj"
             }
           }
         }

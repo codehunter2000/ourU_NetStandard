@@ -22,7 +22,7 @@ namespace ourU_NetStandard.Views
         public async void ListBook_Clicked(object sender, System.EventArgs e)
         {
 
-            string isbn = bookISBNEntry.Text;
+             string isbn = bookISBNEntry.Text;
             string title = bookTitleEntry.Text;
             string author = bookAuthorEntry.Text;
             string status = bookStatusEntry.Text;
@@ -32,6 +32,7 @@ namespace ourU_NetStandard.Views
 
             Models.Book toAdd = new Models.Book
             {
+                theID = isbn,
                 theISBN = isbn,
                 theTitle = title,
                 theAuthor = author,
