@@ -4963,7 +4963,7 @@
       ]
     },
     "Microsoft.AspNetCore/2.0.3": {
-      "sha512": "mxKAtA5rc03fE19mEgGtFHmXA67b9OUkNM1H+kBx75E5sZiNOCGLhnIBbRSBlaqVuiw4ro6oM/0wL2RC+fVcsg==",
+      "sha512": "ewoUaFoSuYIrS3TQqUkDvkFb2gVdXiUadtqAghsHkkaw3tvvrPj472KgfwmEYdWJZnmDaxOOFOzyQIU4/n/vew==",
       "type": "package",
       "path": "microsoft.aspnetcore/2.0.3",
       "files": [
@@ -4975,7 +4975,7 @@
       ]
     },
     "Microsoft.AspNetCore.All/2.0.8": {
-      "sha512": "t6vfqSMw65++rY2aNlDZJS7zyQPlSFW8FxB764xFo0wPgmUnrpn2lrPO/fjOEaEPUxfERUCGVZnVe0vaW/5lqg==",
+      "sha512": "gWVS0txQ/JSpIHS2Wlxjr9L0TlOShy1v+QFOM1tMJoYEdVsw2a0yvP7Mi++vsn1VL9dmMeGaUsVpWTb4M00e5Q==",
       "type": "package",
       "path": "microsoft.aspnetcore.all/2.0.8",
       "files": [
@@ -5010,7 +5010,7 @@
       ]
     },
     "Microsoft.AspNetCore.ApplicationInsights.HostingStartup/2.0.3": {
-      "sha512": "+UQZH6jZ4rgVrB5ZTjhPkcA8CY/nTAnofIqFHEFJl/PXCDXvMnKRnsbWLYBMZLqGt7dggLwAnrdRtbT33mi5UQ==",
+      "sha512": "OU63ZlYdzXKmQ62npj4H0Pic6pmnJiGXjSN22Di6n2mZ9zQhk08eZcQVjLpOqUVM0VGUGPhIuZqqZsJBX164OA==",
       "type": "package",
       "path": "microsoft.aspnetcore.applicationinsights.hostingstartup/2.0.3",
       "files": [
@@ -5180,7 +5180,7 @@
       ]
     },
     "Microsoft.AspNetCore.AzureAppServices.HostingStartup/2.0.3": {
-      "sha512": "UnkLvadZSTVyEfaW9P/aLaqZfqTWRdbN/sFLI0Ok5nx3CDblkizrvNa3Hv8M12SDQy767o72onX+2TtEFX6s7w==",
+      "sha512": "LX0g9/vHRpKjSsu5MFVly0taGhCLE9StmGkmUqy5TnwJMdUxuhWfU4Yrz7JN8VaKax43wrw8w0YJwBhymzB2og==",
       "type": "package",
       "path": "microsoft.aspnetcore.azureappservices.hostingstartup/2.0.3",
       "files": [
@@ -5194,7 +5194,7 @@
       ]
     },
     "Microsoft.AspNetCore.AzureAppServicesIntegration/2.0.3": {
-      "sha512": "Kl0+CbCaiSorUhgZGh1fhgjRUXw+yHMjZwEhlrkVFGjyCKauOe+fAyk9Q+/lE4JGXjLuEtMQLtCs00W2MdsOaw==",
+      "sha512": "/zGE76JQsbdPmMAflYylEGxUjo6eEPNUaicTiyXPtbwUs6C0q5esOvNZ09hZInM6smWS+Socyn0+vXLwdajGpw==",
       "type": "package",
       "path": "microsoft.aspnetcore.azureappservicesintegration/2.0.3",
       "files": [
@@ -5446,7 +5446,7 @@
       ]
     },
     "Microsoft.AspNetCore.Identity/2.0.3": {
-      "sha512": "lafKHQFu2lLZZMH79TfOnHq3KHrUSddxG78TPSwHCfkg6ak7/5MLWNLsxjDf4aQem9YndqqhFtKbKZXVVWQsXA==",
+      "sha512": "EjOC8tZnA90yO+TgIJFc16oBGwYErNhJg+ft3utAuAFvC+VQTaVQw6bTD6eGUWb0uHNxkZH0gJlR9QufrqSheQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.identity/2.0.3",
       "files": [
@@ -5458,7 +5458,7 @@
       ]
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/2.0.3": {
-      "sha512": "npshCR8UupinVmiqB3RL0TbKofFt4jau7bd2PWpIZA8DaC1EBkIhr7u8b0QJy6MDhdv3OYUuSZ8F22w6YSli7Q==",
+      "sha512": "BLMdytdUpFWwvOdSTfgH3vwpNIlo7Xf7J6X41bLVnZWfgU+DDfcMibaq7qLh7Ni7iydAx30ouNJhOMb6ucj30g==",
       "type": "package",
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/2.0.3",
       "files": [
@@ -5862,7 +5862,7 @@
       ]
     },
     "Microsoft.AspNetCore.Server.Kestrel/2.0.3": {
-      "sha512": "5bKt1sGRWZFBPtljNJRJJ+mAZNuRJiG3O8giw7pyMwg3Q59IrctTEhOpIBopv1L3L4n1EwvGKXZB8zU+Kfr5qg==",
+      "sha512": "/ktWQIcp1GRf3HPShj+2F+Dl+q7xtMsANsb9zOnpGNKSpB5z2n07cKHzXf+8iXHRLyTFbIidx2L8CMoaeQ0pfQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.server.kestrel/2.0.3",
       "files": [
@@ -5874,7 +5874,7 @@
       ]
     },
     "Microsoft.AspNetCore.Server.Kestrel.Core/2.0.3": {
-      "sha512": "do3Kr2BKJQO9LjqQ6H7an7hY3Oay2ngtc90qZ7SWJU2jZQiK6SQQfv/kR4Zl2DNp0rIAOKTLhrS/D9cTA7mgzQ==",
+      "sha512": "TnhdRwj2KGophlLQPcRco1keTtHUAuRtZ74xUB7RAjoRelPysJlCNsH/IbIJnFNvYW0tszkjSc7DCkRex4Z/EA==",
       "type": "package",
       "path": "microsoft.aspnetcore.server.kestrel.core/2.0.3",
       "files": [
@@ -5886,7 +5886,7 @@
       ]
     },
     "Microsoft.AspNetCore.Server.Kestrel.Https/2.0.3": {
-      "sha512": "ZgMmE8rbcuLV8eaVeB1KB7s8d8Ucbyq6jfq55o/Fl9lMrQvk/VT/ofwnoVTQ8kkToixHFTT/Fe9wLfg5sL8nBw==",
+      "sha512": "+wcxyn8GFGtsJbwIhnb23fTBBsJZBZV2bN5vb5m8FRrdGM9gGhE3P4rt/oAONCGAQJAMDyfyxKUJfL07gjjYlg==",
       "type": "package",
       "path": "microsoft.aspnetcore.server.kestrel.https/2.0.3",
       "files": [
@@ -5898,7 +5898,7 @@
       ]
     },
     "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.0.3": {
-      "sha512": "nEUbyYMJoGUQsVAHVH/aDIdmO/tlMbkPNyEi03MyfBU/urtU85eDmqnzoKN+ggL8MwDB3tVDbjYD7qSN7r1jRw==",
+      "sha512": "RXB7hERQ1mKtyIjKzlGYXDT0BMBwclg2VsBetD2nqjxb3xXauQEvFM0x6Gp48ELSzmX+lBNWlH7sN8fNNckzAg==",
       "type": "package",
       "path": "microsoft.aspnetcore.server.kestrel.transport.abstractions/2.0.3",
       "files": [
@@ -5910,7 +5910,7 @@
       ]
     },
     "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv/2.0.3": {
-      "sha512": "ekX0paS7pBD9TxYq9or31cTRePV/R5a1dgEGTv5N9LueBUKgIzCx0sJ7uuer95zgHnx+YSPFTrtphwVedFceiw==",
+      "sha512": "FBwRXcAe/7VUA4DCrpnLN8ONtl6BC37SLBXVnqjQ44ofDjKHY24I8geMqAAZ8o7qTMLKbrgJyenjUiIHwVhW0g==",
       "type": "package",
       "path": "microsoft.aspnetcore.server.kestrel.transport.libuv/2.0.3",
       "files": [
@@ -6717,7 +6717,7 @@
       ]
     },
     "Microsoft.Extensions.Identity.Core/2.0.3": {
-      "sha512": "ysASLhZ9zL9XojY7ZgxB8kyhIBwabK+lICNdxiBoy2ULdMTvaxfbfqRzeh29HYU+1cb3S5cDf+ATQaWqIvxRpQ==",
+      "sha512": "NNbXkzEah02mdeAz51XJswDNewW1QxubeNY2TZ5bKxI+HbPaViIv6UK3nvl0n4tcEDeG8WysRgIBQo6Us5FBMQ==",
       "type": "package",
       "path": "microsoft.extensions.identity.core/2.0.3",
       "files": [
@@ -6729,7 +6729,7 @@
       ]
     },
     "Microsoft.Extensions.Identity.Stores/2.0.3": {
-      "sha512": "ijuNNnFUkiGicBlWtStPbP2fBIDLKtHpRO5LOBav9RNBDpA3ygrHEn3VvZeszbbz+4+2isaSy2Y6YprJZ56SVg==",
+      "sha512": "CUTsBa+VHhLAqV6C46IPQ8rMoi1vKao1ZleSy4DuocZmC/L8yw8qkzNlzYFBIkHrvtEuHQ5NkV9scHOv2j8MbQ==",
       "type": "package",
       "path": "microsoft.extensions.identity.stores/2.0.3",
       "files": [
@@ -7582,11 +7582,10 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "t3TNy7WDwNWV3A9+DYvnx4mAYdyGQdap6lB6Da+XUA91hJnvjQb1hqPRjef+rDpE3/nV3eO2WcSiwR4oW/9MJg==",
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7933,11 +7932,10 @@
       ]
     },
     "runtime.native.System/4.3.0": {
-      "sha512": "o4WVHzd3869BLe61zQ2jLh3maCyQgdwTt5GxpKigYeD9WJ5x4H3wPffDvQmrOfj3fWvxwqyBsri2H7eNtr39/g==",
+      "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "type": "package",
       "path": "runtime.native.system/4.3.0",
       "files": [
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -10992,11 +10990,10 @@
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "wLlTiM4b/Un90BM6s3voqYybZEGra4WiIaXfTeB9kVPZr6QDP97xjG+rZYzdP2jiuQnij1bA8q4PzmrY6l5QTw==",
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11488,11 +11485,10 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "UnJ3PmpZrW8Tife2B4q+5BCLpIJZohjGpUCX3YggKodMD9b9iKgFzPCZeaBnOKupvbnl3i5X//NR9ao97H2c7g==",
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13105,23 +13101,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gabriel\\.nuget\\packages\\": {},
+    "C:\\Users\\jjwlk\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.MobileAppService\\ourU_NetStandard.MobileAppService.csproj",
+      "projectUniqueName": "C:\\Users\\jjwlk\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.MobileAppService\\ourU_NetStandard.MobileAppService.csproj",
       "projectName": "ourU_NetStandard.MobileAppService",
-      "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.MobileAppService\\ourU_NetStandard.MobileAppService.csproj",
-      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.MobileAppService\\obj\\",
+      "projectPath": "C:\\Users\\jjwlk\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.MobileAppService\\ourU_NetStandard.MobileAppService.csproj",
+      "packagesPath": "C:\\Users\\jjwlk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jjwlk\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.MobileAppService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jjwlk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

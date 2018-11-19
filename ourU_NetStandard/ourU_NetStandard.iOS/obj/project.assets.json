@@ -1789,20 +1789,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gabriel\\.nuget\\packages\\": {}
+    "C:\\Users\\jjwlk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\jjwlk\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
       "projectName": "ourU_NetStandard.iOS",
-      "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
-      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\obj\\",
+      "projectPath": "C:\\Users\\jjwlk\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\ourU_NetStandard.iOS.csproj",
+      "packagesPath": "C:\\Users\\jjwlk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jjwlk\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jjwlk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1815,8 +1815,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj": {
-              "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj"
+            "C:\\Users\\jjwlk\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj": {
+              "projectPath": "C:\\Users\\jjwlk\\Documents\\GitHub\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard\\ourU_NetStandard.csproj"
             }
           }
         }
