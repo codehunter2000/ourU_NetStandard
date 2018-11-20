@@ -9,12 +9,15 @@
             <ListView
                 BackgroundColor="Silver">
                 <ListView.Header>
+                    <StackLayout>
                     <SearchBar
                         BackgroundColor="Gray"
                         Placeholder="Search"
                         FontAttributes="Bold"/>
+                        <Button  BackgroundColor="White" Text="Random Book Item" TextColor="Black" BorderRadius="1" Clicked="BookItem_Clicked"/>
+                    </StackLayout>
                 </ListView.Header>
-                <ListView.Footer>
+                <ListView.Footer>  
                     <Button
                         BackgroundColor="Gray"
                         FontAttributes="Bold"

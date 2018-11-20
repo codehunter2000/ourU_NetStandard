@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="ourU_NetStandard.Views.BookItemPage">
+	<ContentPage.Content>
+        <Frame  
+            OutlineColor="Accent" 
+                   WidthRequest="400"
+                   HorizontalOptions="CenterAndExpand"
+            VerticalOptions="FillAndExpand"
+                BackgroundColor="#f3f1f0"
+                     >
+        <ScrollView>
+            <StackLayout BackgroundColor="AliceBlue">
+                <Label Text="Object-Oriented Software" HorizontalOptions="Center" TextColor="Black"></Label>
+                <Label Text="Engineering" HorizontalOptions="Center" TextColor="Black"></Label>
+                <Label Text="Author: Bernd Bruegge" HorizontalOptions="Start" TextColor="Black"></Label>
+                <Label Text="ISBN #: 978-0136061250" HorizontalOptions="Start" TextColor="Black"></Label>
+                <Image Source="BookPrices.png" Margin="50,25"></Image>
+
+                    <Frame>
+                    <ListView HeightRequest="100">
+                    </ListView>
+                        </Frame>
+                    <Button Text="Add Listing" TextColor="White" BackgroundColor="Gray"/>
+            </StackLayout>
+        </ScrollView>
+            </Frame>
+	</ContentPage.Content>
+</ContentPage>

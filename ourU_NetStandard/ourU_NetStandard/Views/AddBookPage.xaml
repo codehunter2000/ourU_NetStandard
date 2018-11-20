@@ -1,20 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ourU_NetStandard.Views.AddBookPage">
     <ContentPage.Content>
+         <Frame  
+            OutlineColor="Accent" 
+                   WidthRequest="400"
+                   HorizontalOptions="CenterAndExpand"
+            VerticalOptions="FillAndExpand"
+                BackgroundColor="#f3f1f0"
+                     >
         <ScrollView>
             <StackLayout>
             <Entry x:Name="bookISBNEntry" Placeholder="ISBN" />
             <Entry x:Name="bookTitleEntry" Placeholder="Title" />
             <Entry x:Name="bookAuthorEntry" Placeholder="Author" />
-            <Entry x:Name="bookStatusEntry" Placeholder="Condition (new, worn, etc.)" />
+            <Entry x:Name="bookStatusEntry" Placeholder="Condition - REMOVE" />
             <Entry x:Name="bookClassEntry" Placeholder="Class" />
             <Entry x:Name="bookEditionEntry" Placeholder="Edition" />
-            <Entry x:Name="bookPriceEntry" Placeholder="Price" />
+            <Entry x:Name="bookPriceEntry" Placeholder="Price - REMOVE" />
             <Button Text="List it!" VerticalOptions="CenterAndExpand"
                   HorizontalOptions="Center" Clicked="ListBook_Clicked"/>
           </StackLayout>
         </ScrollView>
+            </Frame>
     </ContentPage.Content>
 </ContentPage>

@@ -25,7 +25,7 @@
 
                     <Button Text="Login Page" FontSize="20" BackgroundColor="#7f0000" TextColor="White" Clicked="Login_Clicked"/>
                     <BoxView HeightRequest="9"/>
-                    <Button Text="Tabbed Version" FontSize="20" BackgroundColor="Black" TextColor="White"/>
+                    <Button Text="Tabbed Version" FontSize="20" BackgroundColor="Black" TextColor="White" Clicked="Tabbed_Clicked"/>
                     <BoxView HeightRequest="9"/>
                     <Button Text="Book Search/List Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="Search_Clicked"/>
                     <Button Text="Personal Info Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="Personal_Clicked"/>

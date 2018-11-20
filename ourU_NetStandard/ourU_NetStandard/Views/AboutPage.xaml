@@ -6,7 +6,7 @@
     <StackLayout Margin="10, 10"  BackgroundColor="Linen">
         <ScrollView>
             <StackLayout>
-                <Image Source="OurU.PNG"></Image>
+                <Image Source="HowToUse.png"></Image>
                 <StackLayout Margin="15, 15" BackgroundColor="White">
                     <Label Text="How to find a book:"
                            FontSize="20"
