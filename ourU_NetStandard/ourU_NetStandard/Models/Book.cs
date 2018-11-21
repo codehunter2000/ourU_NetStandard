@@ -31,6 +31,9 @@ namespace ourU_NetStandard.Models
         [Newtonsoft.Json.JsonProperty("Class")]
         public string theClass;
 
+        [Newtonsoft.Json.JsonProperty("deleted")]
+        public bool isDeleted;
+
     }
 }
 

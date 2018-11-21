@@ -39,7 +39,8 @@ namespace ourU_NetStandard.Views
                 theStatus = status,
                 theClass = theClass,
                 theEdition = edition,
-                thePrice = price
+                thePrice = price,
+                isDeleted = false
             };
 
             bool success = await azserv.AddBook(toAdd);

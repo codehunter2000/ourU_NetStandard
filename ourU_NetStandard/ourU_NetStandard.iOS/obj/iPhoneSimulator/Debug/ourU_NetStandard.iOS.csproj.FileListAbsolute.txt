@@ -300,4 +300,3 @@ C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStan
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\obj\iPhoneSimulator\Debug\ourU_NetStandard.iOS.csproj.CopyComplete
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\obj\iPhoneSimulator\Debug\ourU_NetStandard.iOS.exe
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\obj\iPhoneSimulator\Debug\ourU_NetStandard.iOS.pdb
-C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard.iOS\bin\iPhoneSimulator\Debug\ourU_NetStandard.dll.mdb

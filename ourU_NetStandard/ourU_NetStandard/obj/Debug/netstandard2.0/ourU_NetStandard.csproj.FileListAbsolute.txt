@@ -39,10 +39,10 @@ C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStan
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\bin\Debug\netstandard2.0\ourU_NetStandard.deps.json
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\bin\Debug\netstandard2.0\ourU_NetStandard.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\bin\Debug\netstandard2.0\ourU_NetStandard.pdb
-C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\ourU_NetStandard.csprojAssemblyReference.cache
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\Views\AddBookPage.xaml.g.cs
+C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\Views\BookListPage.xaml.g.cs
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\Views\LogInPage.xaml.g.cs
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\Views\OurUPage.xaml.g.cs
@@ -54,3 +54,4 @@ C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStan
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\ourU_NetStandard.dll
 C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\ourU_NetStandard.pdb
+C:\Users\Gabriel\Documents\GitHub\ourU_NetStandard\ourU_NetStandard\ourU_NetStandard\obj\Debug\netstandard2.0\ourU_NetStandard.csprojAssemblyReference.cache
