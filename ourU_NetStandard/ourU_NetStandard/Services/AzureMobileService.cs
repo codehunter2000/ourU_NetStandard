@@ -53,11 +53,11 @@ namespace ourU_NetStandard.Services
 
             try
             {
-                client.SyncContext.PushAsync();
+                await client.SyncContext.PushAsync();
                 // The first parameter is a query name that is used internally by the client 
                 // SDK to implement incremental sync.
                 // Use a different query name for each unique query in your program.
-                bookTable.PullAsync("Books", bookTable.CreateQuery());
+                await bookTable.PullAsync("Books", bookTable.CreateQuery());
             }
 
             catch (MobileServicePushFailedException exc)
@@ -76,12 +76,12 @@ namespace ourU_NetStandard.Services
                     if (error.OperationKind == MobileServiceTableOperationKind.Update && error.Result != null)
                     {
                         // Update failed, revert to server's copy
-                        error.CancelAndUpdateItemAsync(error.Result);
+                        await error.CancelAndUpdateItemAsync(error.Result);
                     }
                     else
                     {
                         // Discard local change
-                        error.CancelAndDiscardItemAsync();
+                        await error.CancelAndDiscardItemAsync();
                     }
 
                     Debug.WriteLine(@"Error executing sync operation. Item: {0} ({1}). Operation discarded.", 
@@ -95,17 +95,22 @@ namespace ourU_NetStandard.Services
             await bookTable.PurgeAsync(bookTable.Where(book => book.isDeleted));
         }
 
-        public async void getBooksAsync(List<Models.Book> bookList)
+        public async Task getBooksAsync(List<Models.Book> theList)
         {
-            SyncAsync();
+            await SyncAsync();
 
-
-            List<Models.Book> testList = await bookTable.ToListAsync();
-
-            foreach(Models.Book temp in testList)
+            try
             {
-                bookList.Add(temp);
+                List<Models.Book> test = await bookTable.ToListAsync();
+                foreach (var temp in test)
+                    theList.Add(temp);
             }
+
+            catch (Exception e)
+            {
+                string result = e.Message.ToString();
+            }
+
 
         }
 

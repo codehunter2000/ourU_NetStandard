@@ -2,16 +2,15 @@
   <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.Android PreferredExecutionTarget="Android.Nexus_5X_API_26_x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs">
     <Files>
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" Line="28" Column="1" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs" Line="102" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" Line="17" Column="58" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs" Line="103" Column="17" />
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml.cs" Line="48" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Models/Book.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" relfile="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" line="25" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C34A0C06-1F9C-40C8-BE54-77F35026A9F9" automaticSigning="False" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
