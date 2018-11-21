@@ -22,7 +22,7 @@ namespace ourU_NetStandard.Views
             InitializeComponent();
             azServ = new Services.AzureMobileService();
             azServ.Initialize();
-            azServ.getBooksAsync(testList);
+            azServ.getBooksAsync(bookList);
 
 
         }

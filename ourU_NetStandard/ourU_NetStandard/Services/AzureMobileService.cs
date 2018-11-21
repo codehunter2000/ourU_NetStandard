@@ -94,14 +94,13 @@ namespace ourU_NetStandard.Services
             await bookTable.PurgeAsync(bookTable.Where(book => book.isDeleted));
         }
 
-        public async void getBooksAsync(List<Models.Book> bookList)
+        public async void getBooksAsync(ObservableCollection<Models.Book> bookList)
         {
             SyncAsync();
 
 
-            IMobileServiceTableQuery<Models.Book> query = bookTable
-                .Take(1);
-            List<Models.Book> items = await query.ToListAsync();
+            IEnumerable<Models.Book> items = await bookTable.ToEnumerableAsync();
+            bookList = new ObservableCollection<Models.Book>(items);
         }
 
     }
