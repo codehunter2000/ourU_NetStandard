@@ -34,6 +34,7 @@ namespace ourU_NetStandard.Services
             {
 
                 await bookTable.InsertAsync(newBook); 
+                await SyncAsync();
                 return true;
             }
 
@@ -98,9 +99,12 @@ namespace ourU_NetStandard.Services
         {
             SyncAsync();
 
+            var items = await bookTable
+              .Where(book => !book.isDeleted)
+              .ToEnumerableAsync();
 
-            IEnumerable<Models.Book> items = await bookTable.ToEnumerableAsync();
             bookList = new ObservableCollection<Models.Book>(items);
+
         }
 
     }

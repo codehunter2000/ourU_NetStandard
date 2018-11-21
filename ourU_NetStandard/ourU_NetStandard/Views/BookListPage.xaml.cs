@@ -13,13 +13,13 @@ namespace ourU_NetStandard.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class BookListPage : ContentPage
 	{
-        public Services.AzureMobileService azServ;
-        public ObservableCollection<Models.Book> bookList;
+        public Services.AzureMobileService azServ = new Services.AzureMobileService();
+        public ObservableCollection<Models.Book> bookList = new ObservableCollection<Models.Book>();
         public List<Models.Book> testList = new List<Models.Book>();
 
         public BookListPage()
         {
-            InitializeComponent();
+            //InitializeComponent();
             azServ = new Services.AzureMobileService();
             azServ.Initialize();
             azServ.getBooksAsync(bookList);
