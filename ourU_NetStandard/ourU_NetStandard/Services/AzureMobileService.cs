@@ -95,15 +95,17 @@ namespace ourU_NetStandard.Services
             await bookTable.PurgeAsync(bookTable.Where(book => book.isDeleted));
         }
 
-        public async void getBooksAsync(ObservableCollection<Models.Book> bookList)
+        public async void getBooksAsync(List<Models.Book> bookList)
         {
             SyncAsync();
 
-            var items = await bookTable
-              .Where(book => !book.isDeleted)
-              .ToEnumerableAsync();
 
-            bookList = new ObservableCollection<Models.Book>(items);
+            List<Models.Book> testList = await bookTable.ToListAsync();
+
+            foreach(Models.Book temp in testList)
+            {
+                bookList.Add(temp);
+            }
 
         }
 

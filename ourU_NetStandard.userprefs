@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{1298EA33-9553-4609-B521-36AF0813E307}|Default">
   <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.Android PreferredExecutionTarget="Android.Nexus_5X_API_26_x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard.iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs">
     <Files>
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" Line="25" Column="1" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs" Line="37" Column="23" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" Line="28" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs" Line="102" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml.cs" Line="48" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

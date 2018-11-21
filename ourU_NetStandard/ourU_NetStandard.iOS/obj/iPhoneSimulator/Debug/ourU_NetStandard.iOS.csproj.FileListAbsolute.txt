@@ -222,6 +222,7 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.csproj.CopyComplete
 C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.exe
 C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.pdb
+/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCL.Ext.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/ourU_NetStandard.iOS.exe
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/ourU_NetStandard.iOS.pdb
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Client.dll
@@ -233,7 +234,6 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll
-/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCL.Ext.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCL.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
