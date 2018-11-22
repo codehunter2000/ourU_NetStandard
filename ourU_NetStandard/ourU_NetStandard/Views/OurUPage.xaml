@@ -35,9 +35,9 @@
                     <Button Text="Change Password Page" FontSize="20" BackgroundColor="#66b2ff"/>
                     <Button Text="Edit Page" FontSize="20" BackgroundColor="#66b2ff"/>
                     <Button Text="+ New Book Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="AddNewBook_Clicked"/>
-                    <Button Text="Book Item Page" FontSize="20" BackgroundColor="#66b2ff"/>
-                    <Button Text="Add Book Listing Page" FontSize="20" BackgroundColor="#66b2ff"/>
-                    <Button Text="Individual Book listing Page" FontSize="20" BackgroundColor="#66b2ff"/>
+                    <Button Text="Book Item Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="BookItem_Clicked"/>
+                    <Button Text="Add Book Listing Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="AddListing_Clicked"/>
+                    <Button Text="Individual Book listing Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="Listing_Clicked"/>
                 </StackLayout>
             </ScrollView>
         </Frame>

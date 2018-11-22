@@ -57,3 +57,5 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/bin/Debug/netstandard2.0/SQLitePCL.Ext.dll
 /Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/TabContainer.xaml.g.cs
 /Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/BookItemPage.xaml.g.cs
+/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/AddBookListing.xaml.g.cs
+/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/ListingPage.xaml.g.cs

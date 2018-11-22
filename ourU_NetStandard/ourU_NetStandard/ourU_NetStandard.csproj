@@ -57,6 +57,7 @@
     <Compile Remove="ViewModels\SignUpPageViewModel.cs" />
     <Compile Remove="Views\ContentPage.cs" />
     <Compile Remove="Views\TabContainer.cs" />
+    <Compile Remove="Views\ListingPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\SignUpPage.xaml.cs">

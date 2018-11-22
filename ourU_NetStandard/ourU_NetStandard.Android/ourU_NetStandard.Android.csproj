@@ -111,6 +111,7 @@
     <AndroidResource Include="Resources\drawable\search.png" />
     <AndroidResource Include="Resources\drawable\HowToUse.png" />
     <AndroidResource Include="Resources\drawable\sell.png" />
+    <AndroidResource Include="Resources\drawable\missing.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />

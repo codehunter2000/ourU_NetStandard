@@ -47,5 +47,20 @@ namespace ourU_NetStandard.Views
         {
             await Navigation.PushAsync(new TabContainer());
         }
+    
+        async void BookItem_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new BookItemPage());
+        }
+
+        async void AddListing_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new AddBookListing());
+        }
+    
+        async void Listing_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new ListingPage());
+        }
     }
 }
