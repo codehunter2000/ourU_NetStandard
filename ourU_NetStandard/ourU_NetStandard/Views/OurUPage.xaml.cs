@@ -62,5 +62,10 @@ namespace ourU_NetStandard.Views
         {
             await Navigation.PushAsync(new ListingPage());
         }
+
+        async void ViewBooks_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new BookListPage());
+        }
     }
 }

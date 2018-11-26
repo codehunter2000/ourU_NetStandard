@@ -22902,11 +22902,10 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "t3TNy7WDwNWV3A9+DYvnx4mAYdyGQdap6lB6Da+XUA91hJnvjQb1hqPRjef+rDpE3/nV3eO2WcSiwR4oW/9MJg==",
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -23685,11 +23684,10 @@
       ]
     },
     "runtime.native.System/4.3.0": {
-      "sha512": "o4WVHzd3869BLe61zQ2jLh3maCyQgdwTt5GxpKigYeD9WJ5x4H3wPffDvQmrOfj3fWvxwqyBsri2H7eNtr39/g==",
+      "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "type": "package",
       "path": "runtime.native.system/4.3.0",
       "files": [
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -29549,23 +29547,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/kakon002/.nuget/packages/": {},
+    "/Users/hunt043/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/ourU_NetStandard.MobileAppService.csproj",
+      "projectUniqueName": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/ourU_NetStandard.MobileAppService.csproj",
       "projectName": "ourU_NetStandard.MobileAppService",
-      "projectPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/ourU_NetStandard.MobileAppService.csproj",
-      "packagesPath": "/Users/kakon002/.nuget/packages/",
-      "outputPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj",
+      "projectPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/ourU_NetStandard.MobileAppService.csproj",
+      "packagesPath": "/Users/hunt043/.nuget/packages/",
+      "outputPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/kakon002/.config/NuGet/NuGet.Config"
+        "/Users/hunt043/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
