@@ -315,3 +315,4 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/search.png
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/HowToUse.png
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/sell.png
+/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/userimage.png

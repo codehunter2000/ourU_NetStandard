@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="ourU_NetStandard.Views.EditPage">
+	<ContentPage.Content>
+    <StackLayout>
+        <Entry x:Name="firstNameEntry" Placeholder="FIRST" />
+        <Entry x:Name="lastNameEntry" Placeholder="LAST" />
+        <Entry x:Name="emailEntry" Placeholder="email" />
+        <Entry x:Name="phoneNumberEntry" Placeholder="Phone#" />
+        <Button Text="Save" TextColor="White" BackgroundColor="DimGray" CornerRadius="20" Margin="30,0"/>
+        <Button Text="Cancle" TextColor="White" BackgroundColor="DimGray" CornerRadius="20" Margin="30,0" Clicked="Cancle_Clicked"/>
+    </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

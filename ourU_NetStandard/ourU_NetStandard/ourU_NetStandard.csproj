@@ -78,6 +78,18 @@
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\AddNewBookPage.xaml.cs">
       <DependentUpon>AddBookPage.xaml</DependentUpon>
     </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\HomePage.xaml.cs">
+      <DependentUpon>SellPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\SellPage.xaml.cs">
+      <DependentUpon>SellPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\AddBookListing.xaml.cs">
+      <DependentUpon>AddListing.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\AddListing.xaml.cs">
+      <DependentUpon>AddListing.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\TabContainer.xaml.cs" />

@@ -1,19 +1,18 @@
 ﻿<Properties StartupConfiguration="{1298EA33-9553-4609-B521-36AF0813E307}|Default">
-  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.Android PreferredExecutionTarget="Android.Nexus_5X_API_26_x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard Status">
     <Files>
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" Line="25" Column="1" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs" Line="91" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml" Line="51" Column="15" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml" Line="47" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ourU_NetStandard Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" relfile="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" line="35" column="1" />
-      <Breakpoint file="/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" relfile="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" line="24" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C34A0C06-1F9C-40C8-BE54-77F35026A9F9" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2F333BDC-EFFF-4AB4-A101-6A63E05BD730" automaticSigning="False" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>

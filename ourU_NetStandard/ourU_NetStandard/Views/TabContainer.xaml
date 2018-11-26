@@ -6,7 +6,7 @@
      x:Class="ourU_NetStandard.Views.TabContainer"
     >
     <views:SearchPage Title="Search" Icon="search.png"/>
-    <views:HomePage Title="Sell" Icon="sell.png"/>
+    <views:SellPage Title="Sell" Icon="sell.png"/>
     <views:PersonalInfoPage Title="User" Icon="user.png"/>
     <views:AboutPage Title="Info" Icon="info.png"/>
     

@@ -16,5 +16,20 @@ namespace ourU_NetStandard.Views
         {
             InitializeComponent();
         }
+
+        async void LogOut_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new LogInPage());
+        }
+
+        async void Edit_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new EditPage());
+        }
+
+        async void ChangePass_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new ChangePasswordPage());
+        }
     }
 }
