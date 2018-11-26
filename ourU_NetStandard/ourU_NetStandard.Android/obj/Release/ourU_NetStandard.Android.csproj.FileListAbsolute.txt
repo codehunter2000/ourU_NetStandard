@@ -1,0 +1,2 @@
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/obj/Release/ourU_NetStandard.Android.csprojAssemblyReference.cache
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/obj/Release/res.flag

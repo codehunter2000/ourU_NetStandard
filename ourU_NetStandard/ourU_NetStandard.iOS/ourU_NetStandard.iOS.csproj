@@ -78,34 +78,13 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
@@ -129,6 +108,14 @@
     <BundleResource Include="Resources\search.png" />
     <BundleResource Include="Resources\HowToUse.png" />
     <BundleResource Include="Resources\sell.png" />
+    <BundleResource Include="Resources\owl_icon2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\OWL_ICON.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\OWL60X60.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\OWL87X87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\OWL58X58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\OWL40X40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\OWL80X80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\OWL180X180.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -147,7 +134,7 @@
     <PackageReference Include="SQLitePCL">
       <Version>3.8.7.2</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

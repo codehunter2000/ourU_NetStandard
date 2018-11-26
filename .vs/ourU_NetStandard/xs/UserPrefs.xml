@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{1298EA33-9553-4609-B521-36AF0813E307}|Default">
+  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/LogInPage.xaml">
+    <Files>
+      <File FileName="ourU_NetStandard/ourU_NetStandard.Android/MainActivity.cs" Line="89" Column="2" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard.Android/Resources/mipmap-anydpi-v26/icon.xml" Line="1" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard.iOS/Info.plist" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/LogInPage.xaml" Line="7" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B37AA815-80A8-4FD5-BFC5-7E4653D794E1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

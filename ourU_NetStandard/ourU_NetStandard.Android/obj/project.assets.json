@@ -1032,7 +1032,7 @@
           "build/MonoAndroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.Design": "27.0.2",
@@ -4355,10 +4355,10 @@
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
-    "Xamarin.Forms/3.3.0.967583": {
-      "sha512": "aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
+    "Xamarin.Forms/3.4.0.1008975": {
+      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "type": "package",
-      "path": "xamarin.forms/3.3.0.967583",
+      "path": "xamarin.forms/3.4.0.1008975",
       "files": [
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -4496,7 +4496,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.3.0.967583.nupkg.sha512",
+        "xamarin.forms.3.4.0.1008975.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -4518,26 +4518,26 @@
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
       "Xamarin.Android.Support.v7.CardView >= 27.0.2.1",
       "Xamarin.Android.Support.v7.MediaRouter >= 27.0.2.1",
-      "Xamarin.Forms >= 3.3.0.967583",
+      "Xamarin.Forms >= 3.4.0.1008975",
       "microsoft.azure.mobile.client.sqlitestore >= 4.0.2",
       "ourU_NetStandard >= 1.0.0",
       "sqlitepcl >= 3.8.7.2"
     ]
   },
   "packageFolders": {
-    "/Users/kakon002/.nuget/packages/": {}
+    "/Users/cristiantapia/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/ourU_NetStandard.Android.csproj",
+      "projectUniqueName": "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/ourU_NetStandard.Android.csproj",
       "projectName": "ourU_NetStandard.Android",
-      "projectPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/ourU_NetStandard.Android.csproj",
-      "packagesPath": "/Users/kakon002/.nuget/packages/",
-      "outputPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/obj",
+      "projectPath": "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/ourU_NetStandard.Android.csproj",
+      "packagesPath": "/Users/cristiantapia/.nuget/packages/",
+      "outputPath": "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kakon002/.config/NuGet/NuGet.Config"
+        "/Users/cristiantapia/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
@@ -4548,8 +4548,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
-              "projectPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
+            "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
+              "projectPath": "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
             }
           }
         }
@@ -4584,7 +4584,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "3.3.0.967583"
+            "version": "3.4.0.1008975"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",

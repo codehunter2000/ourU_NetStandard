@@ -13,7 +13,7 @@
 namespace ourU_NetStandard.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AboutPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/AboutPage.xaml")]
     public partial class AboutPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
