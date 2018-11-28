@@ -98,20 +98,39 @@ namespace ourU_NetStandard.Services
         public async Task getBooksAsync(List<Models.Book> theList)
         {
             await SyncAsync();
-
-            try
+ 
+             try
             {
                 List<Models.Book> test = await bookTable.ToListAsync();
                 foreach (var temp in test)
                     theList.Add(temp);
+                {
+                    if(temp.isBook)
+                        theList.Add(temp);
+                }
             }
-
-            catch (Exception e)
+             catch (Exception e)
             {
                 string result = e.Message.ToString();
             }
-
-
+        }
+        
+        public async Task getListings(List<Models.Book> theList)
+        {
+            await SyncAsync();
+            try
+            {
+                List<Models.Book> test = await bookTable.ToListAsync();
+                foreach (var temp in test)
+                {
+                    if (temp.isListing)
+                        theList.Add(temp);
+                }
+            }
+             catch (Exception e)
+            {
+                string result = e.Message.ToString();
+            }
         }
 
     }
