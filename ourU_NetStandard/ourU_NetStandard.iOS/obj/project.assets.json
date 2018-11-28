@@ -1789,19 +1789,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/kakon002/.nuget/packages/": {}
+    "/Users/cristiantapia/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
+      "projectUniqueName": "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
       "projectName": "ourU_NetStandard.iOS",
-      "projectPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
-      "packagesPath": "/Users/kakon002/.nuget/packages/",
-      "outputPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj",
+      "projectPath": "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
+      "packagesPath": "/Users/cristiantapia/.nuget/packages/",
+      "outputPath": "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kakon002/.config/NuGet/NuGet.Config"
+        "/Users/cristiantapia/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1812,8 +1812,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
-              "projectPath": "/Users/kakon002/Documents/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
+            "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
+              "projectPath": "/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
             }
           }
         }

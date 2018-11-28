@@ -5,7 +5,7 @@
     <ScrollView>
         <StackLayout Margin="10,10,10,10">
             <Button Text="Edit" Clicked="Edit_Clicked" HorizontalOptions="End" Margin="0,0,10,0"/>
-            <Image Source="userimage.png"/>
+            <Image Source="user.png"/>
             <Frame>
             <StackLayout Margin="10,10,10,10" BackgroundColor="Gray">
                 <StackLayout Margin="15,1" BackgroundColor="White" Orientation="Horizontal">
