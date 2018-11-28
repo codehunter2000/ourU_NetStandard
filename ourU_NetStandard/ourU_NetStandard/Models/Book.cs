@@ -33,6 +33,19 @@ namespace ourU_NetStandard.Models
 
         [Newtonsoft.Json.JsonProperty("deleted")]
         public bool isDeleted;
+        
+        [Newtonsoft.Json.JsonProperty("isBook")]
+        public bool isBook;
+         [Newtonsoft.Json.JsonProperty("isListing")]
+        public bool isListing;
+         [Newtonsoft.Json.JsonProperty("Phone")]
+        public string phoneNumber;
+         [Newtonsoft.Json.JsonProperty("Email")]
+        public string emailAddress;
+         [Newtonsoft.Json.JsonProperty("Name")]
+        public string userName;
+         [Newtonsoft.Json.JsonProperty("Comment")]
+        public string userComment;
 
     }
 }
