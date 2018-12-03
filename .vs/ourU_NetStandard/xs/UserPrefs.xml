@@ -1,18 +1,15 @@
 ﻿<Properties StartupConfiguration="{1298EA33-9553-4609-B521-36AF0813E307}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/LogInPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml">
     <Files>
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml" Line="51" Column="15" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml" Line="11" Column="82" />
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml" Line="47" Column="1" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard.iOS/Resources/LaunchScreen.storyboard" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/LogInPage.xaml" Line="6" Column="58" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml" Line="8" Column="4" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/LogInPage.xaml" Line="7" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B37AA815-80A8-4FD5-BFC5-7E4653D794E1" />
+  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A2DB4759-FB48-41E0-944A-C16B19BA8DC1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

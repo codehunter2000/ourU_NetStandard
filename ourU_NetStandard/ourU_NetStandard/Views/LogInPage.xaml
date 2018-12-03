@@ -2,9 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ourU_NetStandard.Views.LogInPage">
-    <Image Source="Background2.png" Aspect="AspectFit" />
-       <Image Source="Background2.png" Aspect="AspectFit"
+   
+    
+    
+    <Frame>
         <StackLayout>
-            <Button Text="Log In" Clicked="OnLoginButtonClicked"/>
+            <Image Source="test4" Aspect="Fill"/>
         </StackLayout>
+        
+        <StackLayout>
+        <Image Source="50.png" Aspect="AspectFit" />
+            <Button BackgroundColor="Lime" Text="Log In" TextColor="White" Clicked="OnLoginButtonClicked" HorizontalOptions=" Center"  WidthRequest="300" HeightRequest="50"/>
+    </StackLayout>
+        </Frame>
 </ContentPage>
