@@ -405,3 +405,5 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.exe
 /Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.pdb
 /Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/L_S_OWL2.png
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/50.png
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/Background2.png

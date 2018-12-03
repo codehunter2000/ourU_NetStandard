@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{1298EA33-9553-4609-B521-36AF0813E307}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard.iOS/Resources/LaunchScreen.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/LogInPage.xaml">
     <Files>
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml" Line="51" Column="15" />
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml.cs" Line="1" Column="1" />
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml" Line="47" Column="1" />
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml.cs" Line="1" Column="1" />
       <File FileName="ourU_NetStandard/ourU_NetStandard.iOS/Resources/LaunchScreen.storyboard" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/LogInPage.xaml" Line="6" Column="58" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard.iOS/Main.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -13192,29 +13192,29 @@
           "Microsoft.AspNetCore.All": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.Azure.Mobile.Client": {
             "target": "Package",
-            "version": "4.0.2"
+            "version": "[4.0.2, )"
           },
           "Microsoft.Identity.Client": {
             "target": "Package",
-            "version": "2.3.1-preview"
-          },
-          "SQLitePCL": {
-            "target": "Package",
-            "version": "3.8.7.2"
-          },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "4.0.1"
+            "version": "[2.3.1-preview, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "SQLitePCL": {
+            "target": "Package",
+            "version": "[3.8.7.2, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[4.0.1, )"
           }
         },
         "imports": [

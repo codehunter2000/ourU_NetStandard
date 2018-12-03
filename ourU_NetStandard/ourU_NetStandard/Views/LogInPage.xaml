@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-  <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ourU_NetStandard.Views.LogInPage
-             ">
-    <ContentPage.Content>
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ourU_NetStandard.Views.LogInPage">
+    <Image Source="Background2.png" Aspect="AspectFit" />
+       <Image Source="Background2.png" Aspect="AspectFit"
         <StackLayout>
             <Button Text="Log In" Clicked="OnLoginButtonClicked"/>
         </StackLayout>
-    </ContentPage.Content>
 </ContentPage>

@@ -1824,23 +1824,23 @@
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": {
             "target": "Package",
-            "version": "4.0.2"
+            "version": "[4.0.2, )"
           },
           "Microsoft.Identity.Client": {
             "target": "Package",
-            "version": "2.3.1-preview"
-          },
-          "SQLitePCL": {
-            "target": "Package",
-            "version": "3.8.7.2"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.3.0.967583"
+            "version": "[2.3.1-preview, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
+          },
+          "SQLitePCL": {
+            "target": "Package",
+            "version": "[3.8.7.2, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.3.0.967583, )"
           }
         }
       }

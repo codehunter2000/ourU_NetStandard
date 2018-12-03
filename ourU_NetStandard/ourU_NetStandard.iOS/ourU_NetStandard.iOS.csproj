@@ -117,6 +117,8 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\OWL120X120.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\OWL180X180.png" />
     <BundleResource Include="Resources\L_S_OWL2.png" />
+    <BundleResource Include="Resources\50.png" />
+    <BundleResource Include="Resources\Background2.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

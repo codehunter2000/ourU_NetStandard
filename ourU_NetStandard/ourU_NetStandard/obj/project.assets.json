@@ -4618,33 +4618,33 @@
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": {
             "target": "Package",
-            "version": "4.0.2"
-          },
-          "Microsoft.Identity.Client": {
-            "target": "Package",
-            "version": "2.3.1-preview"
-          },
-          "SQLitePCL": {
-            "target": "Package",
-            "version": "3.8.7.2"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.3.0.967583"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "11.0.2"
+            "version": "[4.0.2, )"
           },
           "Microsoft.Azure.Mobile.Client.SQLiteStore": {
             "target": "Package",
-            "version": "4.0.2"
+            "version": "[4.0.2, )"
+          },
+          "Microsoft.Identity.Client": {
+            "target": "Package",
+            "version": "[2.3.1-preview, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.3",
+            "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
+          },
+          "SQLitePCL": {
+            "target": "Package",
+            "version": "[3.8.7.2, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.3.0.967583, )"
           }
         },
         "imports": [
