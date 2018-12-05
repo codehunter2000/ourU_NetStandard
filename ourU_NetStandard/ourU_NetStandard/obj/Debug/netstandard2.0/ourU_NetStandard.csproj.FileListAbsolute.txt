@@ -141,3 +141,4 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/ourU_NetStandard.dll
 /Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/ourU_NetStandard.pdb
+/Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/ourU_NetStandard.csprojAssemblyReference.cache

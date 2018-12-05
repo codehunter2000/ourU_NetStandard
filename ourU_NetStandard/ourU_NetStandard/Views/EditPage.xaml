@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="ourU_NetStandard.Views.EditPage">
+    x:Class="ourU_NetStandard.Views.EditPage"
+             BackgroundImage="Background3.png">
 	<ContentPage.Content>
     <StackLayout>
-        <Entry x:Name="firstNameEntry" Placeholder="FIRST" />
-        <Entry x:Name="lastNameEntry" Placeholder="LAST" />
-        <Entry x:Name="emailEntry" Placeholder="email" />
-        <Entry x:Name="phoneNumberEntry" Placeholder="Phone#" />
-        <Button Text="Save" TextColor="White" BackgroundColor="DimGray" CornerRadius="20" Margin="30,0"/>
-        <Button Text="Cancle" TextColor="White" BackgroundColor="DimGray" CornerRadius="20" Margin="30,0" Clicked="Cancle_Clicked"/>
+            <Label Text=" " HeightRequest="50"/>
+        <Entry x:Name="firstNameEntry" Placeholder="FIRST" HorizontalOptions="Center" WidthRequest="330" HeightRequest="50"/>
+      <Label Text=" " HeightRequest="5"/>
+            <Entry x:Name="lastNameEntry" Placeholder="LAST" HorizontalOptions="Center" WidthRequest="330" HeightRequest="50" />
+        <Label Text=" " HeightRequest="5"/>
+            <Entry x:Name="emailEntry" Placeholder="email" HorizontalOptions="Center" WidthRequest="330" HeightRequest="50"/>
+       <Label Text=" " HeightRequest="5"/>
+            <Entry x:Name="phoneNumberEntry" Placeholder="Phone#" HorizontalOptions="Center" WidthRequest="330" HeightRequest="50"/>
+        <Label Text=" " HeightRequest="155"/>
+            <Button Text="Save" TextColor="White" Font="25" BackgroundColor="Lime" CornerRadius="20" Margin="30,0" HeightRequest="50"/>
+            <Label Text=" " HeightRequest="5"/>
+        <Button Text="Cancle" TextColor="White" Font="25" BackgroundColor="Red" CornerRadius="20" Margin="30,0" HeightRequest="50" Clicked="Cancle_Clicked"/>
     </StackLayout>
 	</ContentPage.Content>
 </ContentPage>
