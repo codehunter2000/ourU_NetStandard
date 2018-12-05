@@ -25,10 +25,7 @@ namespace ourU_NetStandard.Views
             string isbn = bookISBNEntry.Text;
             string title = bookTitleEntry.Text;
             string author = bookAuthorEntry.Text;
-            string status = bookStatusEntry.Text;
-            string theClass = bookClassEntry.Text;
             string edition = bookEditionEntry.Text;
-            string price = bookPriceEntry.Text;
 
             Models.Book toAdd = new Models.Book
             {
@@ -36,10 +33,7 @@ namespace ourU_NetStandard.Views
                 theISBN = isbn,
                 theTitle = title,
                 theAuthor = author,
-                theStatus = status,
-                theClass = theClass,
                 theEdition = edition,
-                thePrice = price,
                 isDeleted = false
             };
 

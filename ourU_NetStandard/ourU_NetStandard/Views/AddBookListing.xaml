@@ -21,13 +21,8 @@
             <Entry x:Name="bookSectionEntry" Placeholder="Section" Margin="0,0,0,30"/>
 
              <Label Text="Comments:"/>      
-                    <Editor
-                        InputTransparent="{Binding EditOption}"
-                        BackgroundColor="White"
-                        HorizontalOptions="FillAndExpand"
-                        VerticalOptions="FillAndExpand"
-                        HeightRequest="30"
-                        Margin="0,0,0, 10"/>
+                    <Entry
+                        InputTransparent="{Binding EditOption}"/>
 
              <Label Text="Contact"  HorizontalOptions="Center"/>
               <Grid>    

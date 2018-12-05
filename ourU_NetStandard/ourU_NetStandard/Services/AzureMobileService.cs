@@ -201,6 +201,38 @@ namespace ourU_NetStandard.Services
 
         }
 
+        public async Task<bool> deleteBook(string bookTitle)
+        {
+            try
+            {
+                await bookTable.PurgeAsync(bookTable.Where(book => 
+                (book.theTitle == bookTitle) && (book.isBook == true)));
+                return true;
+            }
+            catch (Exception e)
+            {
+                string err = e.Message;
+            }
+
+            return false;
+        }
+
+        public async Task<bool> deleteListing(string bookTitle, string email)
+        {
+            try
+            {
+                await bookTable.PurgeAsync(bookTable.Where(book =>
+                    (book.theTitle == bookTitle) && (book.isListing == true)));
+                return true;
+            }
+            catch (Exception e)
+            {
+                string err = e.Message;
+            }
+            return false;
+
+        }
+
         public void getListingsCollection(ref ObservableCollection<Models.Book> listings)
         {
             List<Models.Book> firstList = new List<Models.Book>(); 
@@ -225,6 +257,20 @@ namespace ourU_NetStandard.Services
             foreach (Models.Book temp in list)
             {
                 if (temp.isBook == true)
+                    books.Add(temp);
+            }
+        }
+
+        public void searchBooks(ref ObservableCollection<Models.Book> books, string bookTitle)
+        {
+            List<Models.Book> list = new List<Models.Book>();
+            var task1 = Task.Run(
+            async () => await bookTable.ToListAsync());
+            task1.Wait();
+            list = task1.Result;
+            foreach (Models.Book temp in list)
+            {
+                if (temp.theTitle == bookTitle)
                     books.Add(temp);
             }
         }
