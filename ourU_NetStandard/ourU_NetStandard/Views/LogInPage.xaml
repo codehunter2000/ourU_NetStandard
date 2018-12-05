@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ourU_NetStandard.Views.LogInPage">
-   
+             x:Class="ourU_NetStandard.Views.LogInPage"
+             BackgroundImage = "OR_backR.png">
     
-    
-    <Frame>
+          
         <StackLayout>
-            <Image Source="test4" Aspect="Fill"/>
-        </StackLayout>
-        
-        <StackLayout>
-        <Image Source="50.png" Aspect="AspectFit" />
+        <Image Source="smaller_box_75.png"/>
             <Button BackgroundColor="Lime" Text="Log In" TextColor="White" Clicked="OnLoginButtonClicked" HorizontalOptions=" Center"  WidthRequest="300" HeightRequest="50"/>
     </StackLayout>
-        </Frame>
 </ContentPage>

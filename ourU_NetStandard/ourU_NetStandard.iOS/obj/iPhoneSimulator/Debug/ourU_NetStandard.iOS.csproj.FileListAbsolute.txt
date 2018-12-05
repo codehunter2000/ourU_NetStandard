@@ -406,7 +406,6 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.pdb
 /Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/L_S_OWL2.png
 /Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/50.png
-/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/Background2.png
 /Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/SQLitePCL.Ext.dll
 /Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/ourU_NetStandard.iOS.exe
 /Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/ourU_NetStandard.iOS.pdb
@@ -499,3 +498,10 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.exe
 /Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/ourU_NetStandard.iOS.pdb
 /Users/tapia026/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/test4.png
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/test.png
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/test4.png
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/25.png
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/OR_Back.png
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/smaller_box_100.png
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/smaller_box_75.png
+/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.1/optimized/OR_backR.png

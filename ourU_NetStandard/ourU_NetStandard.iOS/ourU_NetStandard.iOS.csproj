@@ -120,6 +120,13 @@
     <BundleResource Include="Resources\50.png" />
     <BundleResource Include="Resources\test.png" />
     <BundleResource Include="Resources\test4.png" />
+    <BundleResource Include="Resources\25.png" />
+    <BundleResource Include="Resources\OR_Back.png" />
+    <BundleResource Include="Resources\smaller_box_100.png" />
+    <BundleResource Include="Resources\smaller_box_75.png" />
+    <BundleResource Include="Resources\OR_backR.png" />
+    <BundleResource Include="Resources\Background1.jpg" />
+    <BundleResource Include="Resources\Background2.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
