@@ -15,14 +15,14 @@ namespace ourU_NetStandard.Views
     {
         public Services.AzureMobileService azServ = new Services.AzureMobileService();
         public ObservableCollection<Models.Book> bookList = new ObservableCollection<Models.Book>();
-        public List<Models.Book> testList = new List<Models.Book>();
 
         public BookListPage()
         {
-            //InitializeComponent();
-            azServ = new Services.AzureMobileService();
-            azServ.Initialize();
-            azServ.getBooksAsync(testList);
+            InitializeComponent();
+            var task1 = Task.Run(
+            async () => await azServ.Initialize());
+            task1.Wait();
+            azServ.getBookCollection(ref bookList);
         }
     }
 }

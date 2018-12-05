@@ -130,7 +130,6 @@
     <BundleResource Include="Resources\HowToUse.png" />
     <BundleResource Include="Resources\sell.png" />
     <BundleResource Include="Resources\missing.jpg" />
-    <BundleResource Include="Resources\userimage.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

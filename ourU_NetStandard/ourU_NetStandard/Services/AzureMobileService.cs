@@ -203,7 +203,7 @@ namespace ourU_NetStandard.Services
 
         public void getListingsCollection(ref ObservableCollection<Models.Book> listings)
         {
-            List<Models.Book> firstList;
+            List<Models.Book> firstList = new List<Models.Book>(); 
             var task1 = Task.Run(
                 async () => await bookTable.ToListAsync());
             task1.Wait();
@@ -215,5 +215,18 @@ namespace ourU_NetStandard.Services
             }
         }
 
+        public void getBookCollection(ref ObservableCollection<Models.Book> books)
+        {
+            List<Models.Book> list = new List<Models.Book>();
+            var task1 = Task.Run(
+            async () => await bookTable.ToListAsync());
+            task1.Wait();
+            list = task1.Result;
+            foreach (Models.Book temp in list)
+            {
+                if (temp.isBook == true)
+                    books.Add(temp);
+            }
+        }
     }
 }

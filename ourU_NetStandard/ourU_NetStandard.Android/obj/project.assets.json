@@ -4560,55 +4560,55 @@
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": {
             "target": "Package",
-            "version": "4.0.2"
-          },
-          "microsoft.azure.mobile.client.sqlitestore": {
-            "target": "Package",
-            "version": "4.0.2"
+            "version": "[4.0.2, )"
           },
           "Microsoft.Identity.Client": {
             "target": "Package",
-            "version": "2.3.1-preview"
-          },
-          "sqlitepcl": {
-            "target": "Package",
-            "version": "3.8.7.2"
-          },
-          "Xamarin.Android.Support.Compat": {
-            "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Android.Support.CustomTabs": {
-            "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.3.0.967583"
-          },
-          "Xamarin.Android.Support.Design": {
-            "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Android.Support.v7.AppCompat": {
-            "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Android.Support.v4": {
-            "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Android.Support.v7.CardView": {
-            "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Android.Support.v7.MediaRouter": {
-            "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[2.3.1-preview, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
+          },
+          "Xamarin.Android.Support.Compat": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.CustomTabs": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.Design": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.v4": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.v7.CardView": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.v7.MediaRouter": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.3.0.967583, )"
+          },
+          "microsoft.azure.mobile.client.sqlitestore": {
+            "target": "Package",
+            "version": "[4.0.2, )"
+          },
+          "sqlitepcl": {
+            "target": "Package",
+            "version": "[3.8.7.2, )"
           }
         }
       }
