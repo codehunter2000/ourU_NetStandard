@@ -1,20 +1,23 @@
-﻿using System;
-
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace ourU_NetStandard.Views
 {
-    public class ListingPage : ContentPage
+    public partial class ListingPage : ContentPage
     {
+        public Services.AzureMobileService azServ = new Services.AzureMobileService();
+        public ObservableCollection<Models.Book> listings = new ObservableCollection<Models.Book>();
+
         public ListingPage()
         {
-            Content = new StackLayout
-            {
-                Children = {
-                    new Label { Text = "Hello ContentPage" }
-                }
-            };
+            InitializeComponent();
+            var task1 = Task.Run(
+            async () => await azServ.Initialize());
+            task1.Wait();
+            azServ.getListingsCollection(ref listings);
         }
     }
 }
-
