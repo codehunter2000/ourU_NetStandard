@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -18,14 +18,28 @@ namespace ourU_NetStandard.Services
         IMobileServiceSyncTable<Models.Book> bookTable;
 
 
-        public async Task Initialize()
+        public async Task<bool> Initialize()
         {
-            client = new MobileServiceClient("https://ouru.azurewebsites.net");
-            const string path = "Book.db";
-            var store = new MobileServiceSQLiteStore(path);
-            store.DefineTable<Models.Book>();
-            await client.SyncContext.InitializeAsync(store);
-            bookTable = client.GetSyncTable<Models.Book>();
+            bool done = false;
+            if (client == null)
+            {
+                try
+                {
+                    client = new MobileServiceClient("https://ouru.azurewebsites.net");
+                    const string path = "Book.db";
+                    var store = new MobileServiceSQLiteStore(path);
+                    store.DefineTable<Models.Book>();
+                    await client.SyncContext.InitializeAsync(store);
+                    bookTable = client.GetSyncTable<Models.Book>();
+                    done = true;
+                }
+
+                catch (Exception e)
+                {
+                    string error = e.Message;
+                }
+            }
+            return done;
         }
 
         public async Task<bool> AddBook(Models.Book newBook)
@@ -34,7 +48,11 @@ namespace ourU_NetStandard.Services
             {
 
                 await bookTable.InsertAsync(newBook);
-                await SyncAsync();
+                var result = await SyncAsync();
+                if (result.Success == false)
+                {
+                    //do something
+                }
                 return true;
             }
 
@@ -47,7 +65,45 @@ namespace ourU_NetStandard.Services
 
         }
 
-        public async Task SyncAsync()
+        public interface IResult
+        {
+            bool Success { get; }
+            string Message { get; }
+        }
+
+        public interface IResult<TValue>: IResult
+        {
+            TValue Value { get; }
+        }
+
+        public class Result : IResult
+        {
+            public string Message { get; }
+            public bool Success { get; }
+            public Result(
+                bool success,
+                string message
+                )
+            {
+                Success = success;
+                Message = message;
+            }
+        }
+
+        public class Result<TValue> : Result, IResult<TValue>
+        {
+            public TValue Value { get; }
+            public Result(
+                bool success,
+                string message,
+                TValue value = default(TValue)
+                ) : base(success, message)
+            {
+                Value = value;
+            }
+        }
+
+        public async Task<IResult> SyncAsync()
         {
             ReadOnlyCollection<MobileServiceTableOperationError> syncErrors = null;
 
@@ -68,9 +124,15 @@ namespace ourU_NetStandard.Services
                 }
             }
 
+            catch (Exception e)
+            {
+                return new Result(false, e.Message);
+            }
+
             // Simple error/conflict handling.
             if (syncErrors != null)
             {
+                var sb = new System.Text.StringBuilder();
                 foreach (var error in syncErrors)
                 {
                     if (error.OperationKind == MobileServiceTableOperationKind.Update && error.Result != null)
@@ -84,10 +146,14 @@ namespace ourU_NetStandard.Services
                         await error.CancelAndDiscardItemAsync();
                     }
 
-                    Debug.WriteLine(@"Error executing sync operation. Item: {0} ({1}). Operation discarded.",
-                        error.TableName, error.Item["id"]);
+                    var errorMessage = $"Error executing sync operation. Item: {error.TableName} ({error.Item["id"]}). Operation discarded.";
+                    Debug.WriteLine(errorMessage);
+                    sb.AppendLine(errorMessage);
                 }
+                return new Result(false, sb.ToString());
             }
+
+            return new Result(true, "success");
         }
 
         public async Task clearDeleted()
@@ -98,38 +164,54 @@ namespace ourU_NetStandard.Services
         public async Task getBooksAsync(List<Models.Book> theList)
         {
             await SyncAsync();
- 
-             try
-            {
-                List<Models.Book> test = await bookTable.ToListAsync();
-                foreach (var temp in test)
-                    theList.Add(temp);
-                {
-                    if(temp.isBook)
-                        theList.Add(temp);
-                }
-            }
-             catch (Exception e)
-            {
-                string result = e.Message.ToString();
-            }
-        }
-        
-        public async Task getListings(List<Models.Book> theList)
-        {
-            await SyncAsync();
+
             try
             {
                 List<Models.Book> test = await bookTable.ToListAsync();
                 foreach (var temp in test)
                 {
-                    if (temp.isListing)
+                    if(temp.isBook)
                         theList.Add(temp);
                 }
             }
-             catch (Exception e)
+
+            catch (Exception e)
             {
                 string result = e.Message.ToString();
+            }
+        }
+
+        public async Task<bool> getListings(ObservableCollection<Models.Book> listings)
+        {
+
+            try
+            {
+
+                await SyncAsync();
+                List<Models.Book> theList = await bookTable.ToListAsync();
+                listings = new ObservableCollection<Models.Book>(theList);
+                return true;
+            }
+
+            catch (Exception e)
+            {
+                string result = e.Message.ToString();
+            }
+            return false;
+
+        }
+
+        public void getListingsCollection(ref ObservableCollection<Models.Book> listings)
+        {
+            List<Models.Book> firstList;
+            var task1 = Task.Run(
+                async () => await bookTable.ToListAsync());
+            task1.Wait();
+            firstList = task1.Result;
+            foreach (Models.Book temp in firstList)
+            {
+                if (temp.isListing == true)
+                    listings.Add(temp);
             }
         }
 
