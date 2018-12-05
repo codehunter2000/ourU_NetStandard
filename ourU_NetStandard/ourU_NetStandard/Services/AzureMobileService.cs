@@ -230,7 +230,6 @@ namespace ourU_NetStandard.Services
                 string err = e.Message;
             }
             return false;
-
         }
 
         public void getListingsCollection(ref ObservableCollection<Models.Book> listings)
