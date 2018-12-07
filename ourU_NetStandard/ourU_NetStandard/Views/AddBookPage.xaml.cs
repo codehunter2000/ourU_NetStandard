@@ -34,7 +34,8 @@ namespace ourU_NetStandard.Views
                 theTitle = title,
                 theAuthor = author,
                 theEdition = edition,
-                isDeleted = false
+                isDeleted = false,
+                isBook = true
             };
 
             bool success = await azserv.AddBook(toAdd);
