@@ -30,7 +30,7 @@ namespace ourU_NetStandard
         public App()
         {
             //InitializeComponent();
-            AuthenticationClient = new PublicClientApplication(Constants.ApplicationID);
+            //AuthenticationClient = new PublicClientApplication(Constants.ApplicationID);
             MainPage = new NavigationPage(new OurUPage());
         }
 

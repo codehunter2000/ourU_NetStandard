@@ -74,8 +74,6 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/AddBookListing.xaml.g.cs
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/AddBookPage.xaml.g.cs
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/AddListing.xaml.g.cs
-/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/b2cLogin.xaml.g.cs
-/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/b2cLogout.xaml.g.cs
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/BookItemPage.xaml.g.cs
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/BookListPage.xaml.g.cs
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/Views/ChangePasswordPage.xaml.g.cs
@@ -95,3 +93,4 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/ourU_NetStandard.csproj.CopyComplete
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/ourU_NetStandard.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/ourU_NetStandard.pdb
+/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj/Debug/netstandard2.0/ourU_NetStandard.csprojAssemblyReference.cache

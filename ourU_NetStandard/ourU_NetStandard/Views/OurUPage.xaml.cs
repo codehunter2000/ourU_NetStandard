@@ -25,7 +25,7 @@ namespace ourU_NetStandard.Views
 
         async void B2CLogin_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new b2cLogin());
+            //await Navigation.PushAsync(new b2cLogin());
         }
 
         async void About_Clicked(object sender, System.EventArgs e)
