@@ -833,6 +833,7 @@
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
           }
+<<<<<<< HEAD
         }
       },
       "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.1.10": {
@@ -841,6 +842,8 @@
             "assemblyVersion": "3.14.1.10",
             "fileVersion": "3.14.40629.536"
           }
+=======
+>>>>>>> origin/observelist
         }
       }
     }

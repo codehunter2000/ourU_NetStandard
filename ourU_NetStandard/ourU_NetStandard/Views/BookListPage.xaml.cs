@@ -19,10 +19,17 @@ namespace ourU_NetStandard.Views
         public BookListPage()
         {
             InitializeComponent();
+<<<<<<< HEAD
             var task1 = Task.Run(
             async () => await azServ.Initialize());
             task1.Wait();
             azServ.getBookCollection(ref bookList);
+=======
+            BookListView.ItemsSource = bookList;
+            azServ = new Services.AzureMobileService();
+            azServ.Initialize();
+            azServ.getBooksAsync(testList);
+>>>>>>> origin/observelist
         }
     }
 }

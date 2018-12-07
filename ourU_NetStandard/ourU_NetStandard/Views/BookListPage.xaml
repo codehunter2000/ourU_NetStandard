@@ -4,10 +4,10 @@
              xmlns:constants="clr-namespace:ourU_NetStandard;assembly=ourU_NetStandard"
              x:Class="ourU_NetStandard.Views.BookListPage"
              Title="Book List">
-    <ListView x:Name="BookListView">
+    <ListView x:Name="BookListView" HasUnevenRows="true">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding theTitle}" />
+                <TextCell Text="{Binding TheAuthor}" />
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

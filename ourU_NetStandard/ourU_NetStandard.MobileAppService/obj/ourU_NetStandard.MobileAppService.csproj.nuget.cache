@@ -1,5 +1,9 @@
 {
   "version": 1,
+<<<<<<< HEAD
   "dgSpecHash": "RvpLnHpHp2t6bFZq9WmmWAaOVWvo1ZrKoCAVCqo1+k/YTNx9341/DS4UqL8q28vSE458sMXvX7JQdQwFK042xA==",
+=======
+  "dgSpecHash": "R2xzBVuoz1xcMPwRRQ0Uhu+8GVHlSJo/TPc1l5HCGxGq+/V3RoKLV8Rk9JnwFpdjl6pzOHlIUPZCDGcbnG1llg==",
+>>>>>>> origin/observelist
   "success": true
 }

@@ -1798,11 +1798,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/hunt043/.nuget/packages/": {}
+=======
+    "/Users/walke142/.nuget/packages/": {}
+>>>>>>> origin/observelist
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
       "projectName": "ourU_NetStandard.iOS",
       "projectPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
@@ -1811,6 +1816,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hunt043/.config/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
+      "projectName": "ourU_NetStandard.iOS",
+      "projectPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
+      "packagesPath": "/Users/walke142/.nuget/packages/",
+      "outputPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/walke142/.config/NuGet/NuGet.Config"
+>>>>>>> origin/observelist
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1821,8 +1836,13 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
+<<<<<<< HEAD
             "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
               "projectPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
+=======
+            "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
+              "projectPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
+>>>>>>> origin/observelist
             }
           }
         }
@@ -1837,11 +1857,19 @@
           },
           "Microsoft.Identity.Client": {
             "target": "Package",
+<<<<<<< HEAD
             "version": "[2.5.0-preview, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.1, )"
+=======
+            "version": "[2.3.1-preview, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
+>>>>>>> origin/observelist
           },
           "SQLitePCL": {
             "target": "Package",
@@ -1849,7 +1877,11 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
+<<<<<<< HEAD
             "version": "[3.4.0.1008975, )"
+=======
+            "version": "[3.3.0.967583, )"
+>>>>>>> origin/observelist
           }
         }
       }

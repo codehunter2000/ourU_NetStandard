@@ -18,7 +18,11 @@ AndroidUseLatestPlatformSdk=False
 TargetFrameworkVersion=v8.1
 AndroidCreatePackagePerAbi=
 OS=Unix
+<<<<<<< HEAD:ourU_NetStandard/ourU_NetStandard.Android/obj/Debug/build.props
 DesignTimeBuild=
+=======
+DesignTimeBuild=true
+>>>>>>> origin/observelist:ourU_NetStandard/ourU_NetStandard.Android/obj/Debug/designtime/build.props
 AndroidIncludeDebugSymbols=True
 AdbTarget=
 AdbOptions=

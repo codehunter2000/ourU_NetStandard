@@ -4534,19 +4534,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/hunt043/.nuget/packages/": {}
+    "/Users/walke142/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/ourU_NetStandard.Android.csproj",
+      "projectUniqueName": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/ourU_NetStandard.Android.csproj",
       "projectName": "ourU_NetStandard.Android",
-      "projectPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/ourU_NetStandard.Android.csproj",
-      "packagesPath": "/Users/hunt043/.nuget/packages/",
-      "outputPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/obj",
+      "projectPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/ourU_NetStandard.Android.csproj",
+      "packagesPath": "/Users/walke142/.nuget/packages/",
+      "outputPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hunt043/.config/NuGet/NuGet.Config"
+        "/Users/walke142/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
@@ -4557,8 +4557,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
-              "projectPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
+            "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
+              "projectPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
             }
           }
         }
@@ -4577,7 +4577,11 @@
           },
           "Newtonsoft.Json": {
             "target": "Package",
+<<<<<<< HEAD
             "version": "[12.0.1, )"
+=======
+            "version": "[11.0.2, )"
+>>>>>>> origin/observelist
           },
           "Xamarin.Android.Support.Compat": {
             "target": "Package",
@@ -4609,7 +4613,11 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
+<<<<<<< HEAD
             "version": "[3.4.0.1008975, )"
+=======
+            "version": "[3.3.0.967583, )"
+>>>>>>> origin/observelist
           },
           "microsoft.azure.mobile.client.sqlitestore": {
             "target": "Package",
