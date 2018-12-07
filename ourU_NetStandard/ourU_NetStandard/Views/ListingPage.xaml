@@ -14,7 +14,7 @@
                             <Label Text="{Binding PhoneNumber}" LineBreakMode="WordWrap"/>
                             <Label Text="{Binding UserComment}" LineBreakMode="WordWrap"/>
                             <Label Text="{Binding ThePrice}" LineBreakMode="WordWrap"/>
-                        </StackLayout>
+                         </StackLayout>
                     </ViewCell>
       </DataTemplate>
     </ListView.ItemTemplate>

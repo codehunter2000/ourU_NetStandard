@@ -215,5 +215,18 @@ namespace ourU_NetStandard.Services
             }
         }
 
+        public void getBookCollection(ref ObservableCollection<Models.Book> books)
+        {
+            List<Models.Book> firstList;
+            var task1 = Task.Run(
+                async () => await bookTable.ToListAsync());
+            task1.Wait();
+            firstList = task1.Result;
+            foreach (Models.Book temp in firstList)
+            {
+                if (temp.IsBook == true)
+                    books.Add(temp);
+            }
+        }
     }
 }

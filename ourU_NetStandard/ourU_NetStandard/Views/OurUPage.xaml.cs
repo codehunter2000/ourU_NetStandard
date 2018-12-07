@@ -30,7 +30,7 @@ namespace ourU_NetStandard.Views
 
         async void Search_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new SearchPage());
+            await Navigation.PushAsync(new BookListPage());
         }
 
         async void Personal_Clicked(object sender, System.EventArgs e)
@@ -65,7 +65,7 @@ namespace ourU_NetStandard.Views
 
         async void ViewBooks_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new BookListPage());
+            await Navigation.PushAsync(new SearchPage());
         }
 
         async void Sell_Clicked(object sender, System.EventArgs e)

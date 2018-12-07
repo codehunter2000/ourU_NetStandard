@@ -1,19 +1,26 @@
 ﻿<Properties StartupConfiguration="{1298EA33-9553-4609-B521-36AF0813E307}|Default">
   <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/AddListing.xaml">
     <Files>
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml" Line="11" Column="25" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml.cs" Line="22" Column="13" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml" Line="5" Column="23" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml.cs" Line="20" Column="26" />
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml" Line="15" Column="15" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Models/Book.cs" Line="3" Column="21" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" Line="23" Column="49" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" Line="28" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Models/Book.cs" Line="40" Column="21" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs" Line="227" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml.cs" Line="34" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/AddBookListing.xaml" Line="54" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/AddListing.xaml" Line="52" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/AddListing.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E5D8399D-4704-42FD-83CF-C5D268489DD7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" relfile="ourU_NetStandard/ourU_NetStandard/Views/BookListPage.xaml.cs" line="28" column="52" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

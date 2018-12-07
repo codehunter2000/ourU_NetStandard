@@ -22,8 +22,10 @@ namespace ourU_NetStandard.Views
             InitializeComponent();
             BookListView.ItemsSource = bookList;
             azServ = new Services.AzureMobileService();
-            azServ.Initialize();
-            azServ.getBooksAsync(testList);
+            var task1 = Task.Run(
+            async () => await azServ.Initialize());
+            task1.Wait();
+            azServ.getBookCollection(ref bookList);
         }
     }
 }
