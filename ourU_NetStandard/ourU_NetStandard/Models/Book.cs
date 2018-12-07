@@ -8,45 +8,45 @@ namespace ourU_NetStandard.Models
     {
 
         [Newtonsoft.Json.JsonProperty("id")]
-        public string theID;
+        public string TheID { get; set; }
 
         [Newtonsoft.Json.JsonProperty("ISBN")]
-        public string theISBN;
+        public string TheISBN { get; set; }
 
         [Newtonsoft.Json.JsonProperty("Author")]
-        public string theAuthor;
+        public string TheAuthor { get; set; }
 
         [Newtonsoft.Json.JsonProperty("Title")]
-        public string theTitle;
+        public string TheTitle { get; set; }
 
         [Newtonsoft.Json.JsonProperty("Price")]
-        public string thePrice;
+        public string ThePrice { get; set; }
 
         [Newtonsoft.Json.JsonProperty("Status")]
-        public string theStatus;
+        public string TheStatus { get; set; }
 
         [Newtonsoft.Json.JsonProperty("Edition")]
-        public string theEdition;
+        public string TheEdition { get; set; }
 
         [Newtonsoft.Json.JsonProperty("Class")]
-        public string theClass;
+        public string TheClass { get; set; }
 
         [Newtonsoft.Json.JsonProperty("deleted")]
-        public bool isDeleted;
+        public bool IsDeleted { get; set; }
         
         [Newtonsoft.Json.JsonProperty("isBook")]
-        public bool isBook;
+        public bool IsBook { get; set; }
          [Newtonsoft.Json.JsonProperty("isListing")]
-        public bool isListing;
+        public bool IsListing { get; set; }
          [Newtonsoft.Json.JsonProperty("Phone")]
-        public string phoneNumber;
+        public string PhoneNumber { get; set; }
          [Newtonsoft.Json.JsonProperty("Email")]
-        public string emailAddress;
+        public string EmailAddress { get; set; }
          [Newtonsoft.Json.JsonProperty("Name")]
-        public string userName;
+        public string UserName { get; set; }
          [Newtonsoft.Json.JsonProperty("Comment")]
-        public string userComment;
-
+        public string UserComment { get; set; }
+        
     }
 }
 

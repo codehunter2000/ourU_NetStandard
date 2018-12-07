@@ -158,7 +158,7 @@ namespace ourU_NetStandard.Services
 
         public async Task clearDeleted()
         {
-            await bookTable.PurgeAsync(bookTable.Where(book => book.isDeleted));
+            await bookTable.PurgeAsync(bookTable.Where(book => book.IsDeleted));
         }
 
         public async Task getBooksAsync(List<Models.Book> theList)
@@ -170,7 +170,7 @@ namespace ourU_NetStandard.Services
                 List<Models.Book> test = await bookTable.ToListAsync();
                 foreach (var temp in test)
                 {
-                    if(temp.isBook)
+                    if(temp.IsBook)
                         theList.Add(temp);
                 }
             }
@@ -210,7 +210,7 @@ namespace ourU_NetStandard.Services
             firstList = task1.Result;
             foreach (Models.Book temp in firstList)
             {
-                if (temp.isListing == true)
+                if (temp.IsListing == true)
                     listings.Add(temp);
             }
         }

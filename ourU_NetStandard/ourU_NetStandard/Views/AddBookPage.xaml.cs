@@ -32,15 +32,15 @@ namespace ourU_NetStandard.Views
 
             Models.Book toAdd = new Models.Book
             {
-                theID = isbn,
-                theISBN = isbn,
-                theTitle = title,
-                theAuthor = author,
-                theStatus = status,
-                theClass = theClass,
-                theEdition = edition,
-                thePrice = price,
-                isDeleted = false
+                TheID = isbn,
+                TheISBN = isbn,
+                TheTitle = title,
+                TheAuthor = author,
+                TheStatus = status,
+                TheClass = theClass,
+                TheEdition = edition,
+                ThePrice = price,
+                IsDeleted = false
             };
 
             bool success = await azserv.AddBook(toAdd);
