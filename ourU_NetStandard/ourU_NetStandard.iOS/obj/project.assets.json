@@ -29,7 +29,7 @@
           "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
-      "Microsoft.Identity.Client/2.3.1-preview": {
+      "Microsoft.Identity.Client/2.5.0-preview": {
         "type": "package",
         "frameworkAssemblies": [
           "System",
@@ -47,7 +47,7 @@
           "lib/xamarinios10/Microsoft.Identity.Client.dll": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -175,7 +175,7 @@
           "lib/dotnet/Validation.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -345,7 +345,7 @@
           "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
-      "Microsoft.Identity.Client/2.3.1-preview": {
+      "Microsoft.Identity.Client/2.5.0-preview": {
         "type": "package",
         "frameworkAssemblies": [
           "System",
@@ -363,7 +363,7 @@
           "lib/xamarinios10/Microsoft.Identity.Client.dll": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -491,7 +491,7 @@
           "lib/dotnet/Validation.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -661,7 +661,7 @@
           "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
-      "Microsoft.Identity.Client/2.3.1-preview": {
+      "Microsoft.Identity.Client/2.5.0-preview": {
         "type": "package",
         "frameworkAssemblies": [
           "System",
@@ -679,7 +679,7 @@
           "lib/xamarinios10/Microsoft.Identity.Client.dll": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -807,7 +807,7 @@
           "lib/dotnet/Validation.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -977,7 +977,7 @@
           "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
-      "Microsoft.Identity.Client/2.3.1-preview": {
+      "Microsoft.Identity.Client/2.5.0-preview": {
         "type": "package",
         "frameworkAssemblies": [
           "System",
@@ -995,7 +995,7 @@
           "lib/xamarinios10/Microsoft.Identity.Client.dll": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -1123,7 +1123,7 @@
           "lib/dotnet/Validation.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1306,10 +1306,10 @@
         "microsoft.azure.mobile.client.sqlitestore.nuspec"
       ]
     },
-    "Microsoft.Identity.Client/2.3.1-preview": {
-      "sha512": "FEQmZPSLFwk9WResmqMnAtiWH2QYO3xuVaZXXNz5aS7Jd3R8/cANmJpW5Qu1SfGYMgq9RZe0vXi1Q8q0fZ9AJw==",
+    "Microsoft.Identity.Client/2.5.0-preview": {
+      "sha512": "rhakwL+/y9lhkavanAnecDv+ojHP0z6ujH+aSzWVLsbepPk5+qgEcgMJtF4PWojQ7UbFQFFWkivYijxsECEtXQ==",
       "type": "package",
-      "path": "microsoft.identity.client/2.3.1-preview",
+      "path": "microsoft.identity.client/2.5.0-preview",
       "files": [
         ".signature.p7s",
         "lib/monoandroid81/Microsoft.Identity.Client.dll",
@@ -1325,36 +1325,45 @@
         "lib/uap10.0/Microsoft.Identity.Client.xml",
         "lib/xamarinios10/Microsoft.Identity.Client.dll",
         "lib/xamarinios10/Microsoft.Identity.Client.xml",
-        "microsoft.identity.client.2.3.1-preview.nupkg.sha512",
+        "microsoft.identity.client.2.5.0-preview.nupkg.sha512",
         "microsoft.identity.client.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.1",
       "files": [
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
         "lib/net35/Newtonsoft.Json.xml",
         "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
         "lib/net45/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
@@ -1627,10 +1636,10 @@
         "validation.nuspec"
       ]
     },
-    "Xamarin.Forms/3.3.0.967583": {
-      "sha512": "aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
+    "Xamarin.Forms/3.4.0.1008975": {
+      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "type": "package",
-      "path": "xamarin.forms/3.3.0.967583",
+      "path": "xamarin.forms/3.4.0.1008975",
       "files": [
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -1768,7 +1777,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.3.0.967583.nupkg.sha512",
+        "xamarin.forms.3.4.0.1008975.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1781,10 +1790,10 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Microsoft.Azure.Mobile.Client >= 4.0.2",
-      "Microsoft.Identity.Client >= 2.3.1-preview",
-      "Newtonsoft.Json >= 11.0.2",
+      "Microsoft.Identity.Client >= 2.5.0-preview",
+      "Newtonsoft.Json >= 12.0.1",
       "SQLitePCL >= 3.8.7.2",
-      "Xamarin.Forms >= 3.3.0.967583",
+      "Xamarin.Forms >= 3.4.0.1008975",
       "ourU_NetStandard >= 1.0.0"
     ]
   },
@@ -1828,11 +1837,11 @@
           },
           "Microsoft.Identity.Client": {
             "target": "Package",
-            "version": "[2.3.1-preview, )"
+            "version": "[2.5.0-preview, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[11.0.2, )"
+            "version": "[12.0.1, )"
           },
           "SQLitePCL": {
             "target": "Package",
@@ -1840,7 +1849,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.3.0.967583, )"
+            "version": "[3.4.0.1008975, )"
           }
         }
       }

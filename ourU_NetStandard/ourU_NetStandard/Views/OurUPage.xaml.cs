@@ -23,6 +23,11 @@ namespace ourU_NetStandard.Views
             await Navigation.PushAsync(new LogInPage());
         }
 
+        async void B2CLogin_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new b2cLogin());
+        }
+
         async void About_Clicked(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new AboutPage());

@@ -238,6 +238,7 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Client.SQLiteStore.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Microsoft.Identity.Client.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.pdb
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PCLCrypto.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PInvoke.BCrypt.dll
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.dll

@@ -15,7 +15,8 @@
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "11.0.2",
           "SQLitePCL": "3.8.7.2",
-          "Xamarin.Forms": "3.3.0.967583"
+          "Xamarin.Forms": "3.3.0.967583",
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.14.1.10"
         },
         "runtime": {
           "ourU_NetStandard.dll": {}
@@ -833,6 +834,14 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.1.10": {
+        "runtime": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {
+            "assemblyVersion": "3.14.1.10",
+            "fileVersion": "3.14.40629.536"
+          }
+        }
       }
     }
   },
@@ -1359,6 +1368,11 @@
       "sha512": "sha512-aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
       "path": "xamarin.forms/3.3.0.967583",
       "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.1.10": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <EmbeddedResource Remove="BookListPage.xaml" />
+    <EmbeddedResource Remove="Views\b2cLogin.xaml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\AboutPage.xaml">
@@ -61,6 +62,8 @@
     <Compile Remove="Views\ContentPage.cs" />
     <Compile Remove="Views\TabContainer.cs" />
     <Compile Remove="Views\ListingPage.cs" />
+    <Compile Remove="Views\App.cs" />
+    <Compile Remove="Views\B2C.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\SignUpPage.xaml.cs">
@@ -94,5 +97,11 @@
   <ItemGroup>
     <None Remove="Views\TabContainer.xaml.cs" />
     <None Remove="Views\BookListPage.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory">
+      <HintPath>..\..\..\..\..\..\..\usr\local\share\dotnet\sdk\NuGetFallbackFolder\microsoft.identitymodel.clients.activedirectory\3.14.1\lib\netstandard1.3\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Android" />
   </ItemGroup>
 </Project>

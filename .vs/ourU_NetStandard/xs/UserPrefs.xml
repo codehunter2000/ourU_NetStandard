@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{1298EA33-9553-4609-B521-36AF0813E307}|Default">
   <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/App.xaml.cs">
     <Files>
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs" Line="232" Column="26" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/App.xaml.cs" Line="32" Column="15" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml.cs" Line="22" Column="10" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/App.xaml" Line="9" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

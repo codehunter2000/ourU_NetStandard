@@ -12,6 +12,7 @@ namespace ourU_NetStandard
 {
     public partial class App : Application
     {
+        public static PublicClientApplication AuthenticationClient { get; private set; }
         public static IAuthenticate AuthenticationProvider { get; private set; }
 
         public static UIParent UiParent = null;
@@ -29,6 +30,7 @@ namespace ourU_NetStandard
         public App()
         {
             //InitializeComponent();
+            AuthenticationClient = new PublicClientApplication(Constants.ApplicationID);
             MainPage = new NavigationPage(new OurUPage());
         }
 

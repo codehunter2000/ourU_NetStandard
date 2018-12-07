@@ -8,17 +8,5 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ourU_NetStandard.App.xaml", "App.xaml", typeof(global::ourU_NetStandard.App))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ourU_NetStandard.App.xaml", "App.xaml", null)]
 
-namespace ourU_NetStandard {
-    
-    
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("App.xaml")]
-    public partial class App : global::Xamarin.Forms.Application {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(App));
-        }
-    }
-}
