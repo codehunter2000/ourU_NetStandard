@@ -3,22 +3,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="ourU_NetStandard.Views.ListingPage">
 	<ContentPage.Content>
-     
-  <ListView x:Name="listView" HasUnevenRows="true">
-    <ListView.ItemTemplate>
-      <DataTemplate>
-                    <ViewCell>
-                        <StackLayout>
-                            <Label Text="{Binding UserName}" LineBreakMode="WordWrap"/>
-                            <Label Text="{Binding EmailAddress}" LineBreakMode="WordWrap"/>
-                            <Label Text="{Binding PhoneNumber}" LineBreakMode="WordWrap"/>
-                            <Label Text="{Binding UserComment}" LineBreakMode="WordWrap"/>
-                            <Label Text="{Binding ThePrice}" LineBreakMode="WordWrap"/>
-                        </StackLayout>
-                    </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-  </ListView>
-           
-        </ContentPage.Content>
+        
+	</ContentPage.Content>
 </ContentPage>

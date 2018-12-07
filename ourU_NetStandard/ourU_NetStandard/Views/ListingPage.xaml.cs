@@ -10,16 +10,14 @@ namespace ourU_NetStandard.Views
     {
         public Services.AzureMobileService azServ = new Services.AzureMobileService();
         public ObservableCollection<Models.Book> listings = new ObservableCollection<Models.Book>();
-       
+
         public ListingPage()
         {
             InitializeComponent();
-            listView.ItemsSource = listings;
             var task1 = Task.Run(
             async () => await azServ.Initialize());
             task1.Wait();
             azServ.getListingsCollection(ref listings);
-
         }
     }
 }

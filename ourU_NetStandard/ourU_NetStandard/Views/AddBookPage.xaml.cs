@@ -29,24 +29,12 @@ namespace ourU_NetStandard.Views
 
             Models.Book toAdd = new Models.Book
             {
-<<<<<<< HEAD
                 theID = isbn,
                 theISBN = isbn,
                 theTitle = title,
                 theAuthor = author,
                 theEdition = edition,
                 isDeleted = false
-=======
-                TheID = isbn,
-                TheISBN = isbn,
-                TheTitle = title,
-                TheAuthor = author,
-                TheStatus = status,
-                TheClass = theClass,
-                TheEdition = edition,
-                ThePrice = price,
-                IsDeleted = false
->>>>>>> origin/observelist
             };
 
             bool success = await azserv.AddBook(toAdd);
