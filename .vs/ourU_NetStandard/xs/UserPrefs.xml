@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{1298EA33-9553-4609-B521-36AF0813E307}|Default">
   <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/AddBookPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml">
     <Files>
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/AddBookPage.xaml.cs" Line="36" Column="38" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml.cs" Line="17" Column="44" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml" Line="6" Column="35" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Models/Book.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0587D472-8A3B-41C1-A16D-F25D4FEC3D1C" />
+  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E5D8399D-4704-42FD-83CF-C5D268489DD7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml.cs" relfile="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml.cs" line="20" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

@@ -2,12 +2,22 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Microsoft.Azure.Mobile.Client/4.0.2": {
+      "Microsoft.Azure.Mobile.Client/4.1.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
           "PCLCrypto": "2.0.147"
         },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Runtime.Serialization",
+          "System.Xml",
+          "System.Xml.Linq",
+          "Xamarin.iOS"
+        ],
         "compile": {
           "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll": {}
         },
@@ -318,12 +328,22 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Microsoft.Azure.Mobile.Client/4.0.2": {
+      "Microsoft.Azure.Mobile.Client/4.1.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
           "PCLCrypto": "2.0.147"
         },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Runtime.Serialization",
+          "System.Xml",
+          "System.Xml.Linq",
+          "Xamarin.iOS"
+        ],
         "compile": {
           "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll": {}
         },
@@ -634,12 +654,22 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Microsoft.Azure.Mobile.Client/4.0.2": {
+      "Microsoft.Azure.Mobile.Client/4.1.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
           "PCLCrypto": "2.0.147"
         },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Runtime.Serialization",
+          "System.Xml",
+          "System.Xml.Linq",
+          "Xamarin.iOS"
+        ],
         "compile": {
           "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll": {}
         },
@@ -950,12 +980,22 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Microsoft.Azure.Mobile.Client/4.0.2": {
+      "Microsoft.Azure.Mobile.Client/4.1.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
           "PCLCrypto": "2.0.147"
         },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Runtime.Serialization",
+          "System.Xml",
+          "System.Xml.Linq",
+          "Xamarin.iOS"
+        ],
         "compile": {
           "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll": {}
         },
@@ -1267,10 +1307,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Azure.Mobile.Client/4.0.2": {
-      "sha512": "BSjk8JkEpNPnkjCOCJ8NbLWjEUOuFzeGAX9yoUa0B/wUl5EbfSvtsTN56Y3NiKZTw0+VMpX1tvtcCJEy+86nOg==",
+    "Microsoft.Azure.Mobile.Client/4.1.0": {
+      "sha512": "42FsOIZ9EiNUCztQ5gvOeDkZTQej+zMLfvDslW8NKGpWQZUOU3o/X8RrTLmQ7aS3FItCGIAqRzW0cv9M9tk5lQ==",
       "type": "package",
-      "path": "microsoft.azure.mobile.client/4.0.2",
+      "path": "microsoft.azure.mobile.client/4.1.0",
       "files": [
         ".signature.p7s",
         "lib/monoandroid70/Microsoft.Azure.Mobile.Client.dll",
@@ -1286,7 +1326,7 @@
         "lib/uap10.0/Microsoft.Azure.Mobile.Client.xml",
         "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll",
         "lib/xamarinios10/Microsoft.Azure.Mobile.Client.xml",
-        "microsoft.azure.mobile.client.4.0.2.nupkg.sha512",
+        "microsoft.azure.mobile.client.4.1.0.nupkg.sha512",
         "microsoft.azure.mobile.client.nuspec"
       ]
     },
@@ -1789,7 +1829,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "Microsoft.Azure.Mobile.Client >= 4.0.2",
+      "Microsoft.Azure.Mobile.Client >= 4.1.0",
       "Microsoft.Identity.Client >= 2.5.0-preview",
       "Newtonsoft.Json >= 12.0.1",
       "SQLitePCL >= 3.8.7.2",
@@ -1798,19 +1838,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/hunt043/.nuget/packages/": {}
+    "/Users/walke142/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
+      "projectUniqueName": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
       "projectName": "ourU_NetStandard.iOS",
-      "projectPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
-      "packagesPath": "/Users/hunt043/.nuget/packages/",
-      "outputPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj",
+      "projectPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
+      "packagesPath": "/Users/walke142/.nuget/packages/",
+      "outputPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hunt043/.config/NuGet/NuGet.Config"
+        "/Users/walke142/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1821,8 +1861,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
-              "projectPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
+            "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
+              "projectPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
             }
           }
         }
@@ -1833,7 +1873,7 @@
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": {
             "target": "Package",
-            "version": "[4.0.2, )"
+            "version": "[4.1.0, )"
           },
           "Microsoft.Identity.Client": {
             "target": "Package",

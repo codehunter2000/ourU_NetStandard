@@ -14,6 +14,7 @@ namespace ourU_NetStandard.Views
         public ListingPage()
         {
             InitializeComponent();
+            listView.ItemsSource = listings; 
             var task1 = Task.Run(
             async () => await azServ.Initialize());
             task1.Wait();

@@ -4574,23 +4574,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/hunt043/.nuget/packages/": {},
+    "/Users/walke142/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj",
+      "projectUniqueName": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj",
       "projectName": "ourU_NetStandard",
-      "projectPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj",
-      "packagesPath": "/Users/hunt043/.nuget/packages/",
-      "outputPath": "/Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj",
+      "projectPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj",
+      "packagesPath": "/Users/walke142/.nuget/packages/",
+      "outputPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/hunt043/.config/NuGet/NuGet.Config"
+        "/Users/walke142/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
