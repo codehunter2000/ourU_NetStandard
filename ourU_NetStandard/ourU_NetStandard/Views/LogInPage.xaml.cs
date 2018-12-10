@@ -42,15 +42,23 @@ namespace ourU_NetStandard.Views
 
        async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            if (App.Authenticator != null)
+            try
             {
-                authenticated = await App.Authenticator.LoginAsync();
+                if (App.Authenticator != null)
+                {
+                    authenticated = await App.Authenticator.LoginAsync();
+                }
+
+                if (authenticated == true)
+                {
+                    Navigation.InsertPageBefore(new OurUPage(), this);
+                    await Navigation.PopAsync();
+                }
             }
 
-            if (authenticated == true)
+            catch (Exception ex)
             {
-                Navigation.InsertPageBefore(new OurUPage(), this);
-                await Navigation.PopAsync();
+                string err = ex.Message;
             }
         }
     }
