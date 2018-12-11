@@ -2,13 +2,24 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
-      "Microsoft.Azure.Mobile.Client/4.0.2": {
+      "Microsoft.Azure.Mobile.Client/4.1.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
           "PCLCrypto": "2.0.147",
           "Xamarin.Android.Support.CustomTabs": "23.3.0"
         },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Runtime.Serialization",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
         "compile": {
           "lib/monoandroid70/Microsoft.Azure.Mobile.Client.dll": {}
         },
@@ -16,10 +27,10 @@
           "lib/monoandroid70/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
-      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.2": {
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.Mobile.Client": "4.0.2",
+          "Microsoft.Azure.Mobile.Client": "4.1.0",
           "NETStandard.Library": "1.6.1",
           "SQLitePCLRaw.bundle_green": "1.1.2"
         },
@@ -1081,10 +1092,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Azure.Mobile.Client/4.0.2": {
-      "sha512": "BSjk8JkEpNPnkjCOCJ8NbLWjEUOuFzeGAX9yoUa0B/wUl5EbfSvtsTN56Y3NiKZTw0+VMpX1tvtcCJEy+86nOg==",
+    "Microsoft.Azure.Mobile.Client/4.1.0": {
+      "sha512": "42FsOIZ9EiNUCztQ5gvOeDkZTQej+zMLfvDslW8NKGpWQZUOU3o/X8RrTLmQ7aS3FItCGIAqRzW0cv9M9tk5lQ==",
       "type": "package",
-      "path": "microsoft.azure.mobile.client/4.0.2",
+      "path": "microsoft.azure.mobile.client/4.1.0",
       "files": [
         ".signature.p7s",
         "lib/monoandroid70/Microsoft.Azure.Mobile.Client.dll",
@@ -1100,14 +1111,14 @@
         "lib/uap10.0/Microsoft.Azure.Mobile.Client.xml",
         "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll",
         "lib/xamarinios10/Microsoft.Azure.Mobile.Client.xml",
-        "microsoft.azure.mobile.client.4.0.2.nupkg.sha512",
+        "microsoft.azure.mobile.client.4.1.0.nupkg.sha512",
         "microsoft.azure.mobile.client.nuspec"
       ]
     },
-    "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.2": {
-      "sha512": "EXXTgQxrirCyqqUvj2Qh3RIn3ZTHPxbfdYIrkZFEbzb7Qo+/Oj3GS9ttNlNXyOihFocDHHqYde7w0pg+91VHJQ==",
+    "Microsoft.Azure.Mobile.Client.SQLiteStore/4.1.0": {
+      "sha512": "vmAwixvTDUL9dI3qCTBK/EgPCbrQHtEDyU+nHM3ut6kfdonxWnUqWFCCiB5qSJ3H7ZN9kB3aLR4ORty+xEccBQ==",
       "type": "package",
-      "path": "microsoft.azure.mobile.client.sqlitestore/4.0.2",
+      "path": "microsoft.azure.mobile.client.sqlitestore/4.1.0",
       "files": [
         ".signature.p7s",
         "lib/net45/Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
@@ -1116,7 +1127,7 @@
         "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.xml",
         "lib/portable-net45+win8+wp8+wpa81/Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
         "lib/portable-net45+win8+wp8+wpa81/Microsoft.Azure.Mobile.Client.SQLiteStore.xml",
-        "microsoft.azure.mobile.client.sqlitestore.4.0.2.nupkg.sha512",
+        "microsoft.azure.mobile.client.sqlitestore.4.1.0.nupkg.sha512",
         "microsoft.azure.mobile.client.sqlitestore.nuspec"
       ]
     },
@@ -4517,7 +4528,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
-      "Microsoft.Azure.Mobile.Client >= 4.0.2",
+      "Microsoft.Azure.Mobile.Client >= 4.1.0",
       "Microsoft.Identity.Client >= 2.3.1-preview",
       "Newtonsoft.Json >= 12.0.1",
       "Xamarin.Android.Support.Compat >= 27.0.2.1",
@@ -4528,7 +4539,7 @@
       "Xamarin.Android.Support.v7.CardView >= 27.0.2.1",
       "Xamarin.Android.Support.v7.MediaRouter >= 27.0.2.1",
       "Xamarin.Forms >= 3.4.0.1008975",
-      "microsoft.azure.mobile.client.sqlitestore >= 4.0.2",
+      "microsoft.azure.mobile.client.sqlitestore >= 4.1.0",
       "ourU_NetStandard >= 1.0.0",
       "sqlitepcl >= 3.8.7.2"
     ]
@@ -4569,7 +4580,7 @@
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": {
             "target": "Package",
-            "version": "[4.0.2, )"
+            "version": "[4.1.0, )"
           },
           "Microsoft.Identity.Client": {
             "target": "Package",
@@ -4613,7 +4624,7 @@
           },
           "microsoft.azure.mobile.client.sqlitestore": {
             "target": "Package",
-            "version": "[4.0.2, )"
+            "version": "[4.1.0, )"
           },
           "sqlitepcl": {
             "target": "Package",

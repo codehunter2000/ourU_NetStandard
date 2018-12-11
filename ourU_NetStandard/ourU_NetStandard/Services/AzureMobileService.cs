@@ -31,6 +31,8 @@ namespace ourU_NetStandard.Services
                     store.DefineTable<Models.Book>();
                     await client.SyncContext.InitializeAsync(store);
                     bookTable = client.GetSyncTable<Models.Book>();
+                    await bookTable.PurgeAsync();
+                    await SyncAsync();
                     done = true;
                 }
 
@@ -248,7 +250,8 @@ namespace ourU_NetStandard.Services
 
         public void getBookCollection(ref ObservableCollection<Models.Book> books)
         {
-            List<Models.Book> list = new List<Models.Book>();
+            List<Models.Book> list;
+            //= new List<Models.Book>();
             var task1 = Task.Run(
             async () => await bookTable.ToListAsync());
             task1.Wait();

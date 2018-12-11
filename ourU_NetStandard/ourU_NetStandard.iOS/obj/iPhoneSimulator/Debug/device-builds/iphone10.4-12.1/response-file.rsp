@@ -162,7 +162,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
--r=/Users/hunt043/.nuget/packages/microsoft.azure.mobile.client/4.0.2/lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll
+-r=/Users/hunt043/.nuget/packages/microsoft.azure.mobile.client/4.1.0/lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll
 -r=/Users/hunt043/.nuget/packages/microsoft.azure.mobile.client.sqlitestore/4.0.2/lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll
 -r=/Users/hunt043/.nuget/packages/microsoft.identity.client/2.5.0-preview/lib/xamarinios10/Microsoft.Identity.Client.dll
 -r=/Users/hunt043/.nuget/packages/newtonsoft.json/12.0.1/lib/netstandard2.0/Newtonsoft.Json.dll

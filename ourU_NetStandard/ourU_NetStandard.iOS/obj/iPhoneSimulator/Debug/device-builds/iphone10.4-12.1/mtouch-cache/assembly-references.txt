@@ -24,7 +24,7 @@
 /Users/hunt043/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/bin/Debug/netstandard2.0/ourU_NetStandard.dll
 /Users/hunt043/.nuget/packages/xamarin.forms/3.4.0.1008975/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/hunt043/.nuget/packages/microsoft.identity.client/2.5.0-preview/lib/xamarinios10/Microsoft.Identity.Client.dll
-/Users/hunt043/.nuget/packages/microsoft.azure.mobile.client/4.0.2/lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll
+/Users/hunt043/.nuget/packages/microsoft.azure.mobile.client/4.1.0/lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll
 /Users/hunt043/.nuget/packages/newtonsoft.json/12.0.1/lib/netstandard2.0/Newtonsoft.Json.dll
 /Users/hunt043/.nuget/packages/pclcrypto/2.0.147/lib/xamarinios10/PCLCrypto.dll
 /Users/hunt043/.nuget/packages/pinvoke.bcrypt/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.BCrypt.dll
