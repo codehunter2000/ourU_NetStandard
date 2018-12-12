@@ -52,6 +52,8 @@ namespace ourU_NetStandard.Services
                 {
                     //do something
                 }
+                await bookTable.PurgeAsync();
+                await SyncAsync();
                 return true;
             }
 

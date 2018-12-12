@@ -14,7 +14,7 @@
             <Label Text=" " HeightRequest="300"/>
                 <Button Text="List it!" VerticalOptions="CenterAndExpand"
                     BackgroundColor="lime" Font="20" TextColor="White" WidthRequest="300" HeightRequest="50" CornerRadius="20" Margin="30,0"
-                  HorizontalOptions="Center"/>
+                  HorizontalOptions="Center" Clicked="ListBook_Clicked"/>
           </StackLayout>
         </ScrollView>
     </ContentPage.Content>

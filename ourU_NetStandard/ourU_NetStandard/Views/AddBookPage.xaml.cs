@@ -15,7 +15,8 @@ namespace ourU_NetStandard.Views
         Services.AzureMobileService azserv = new Services.AzureMobileService();
         public AddBookPage()
         {
-            InitializeComponent();var task1 = Task.Run(
+            InitializeComponent();
+            var task1 = Task.Run(
                 async () => await azserv.Initialize());
             task1.Wait();
         }
