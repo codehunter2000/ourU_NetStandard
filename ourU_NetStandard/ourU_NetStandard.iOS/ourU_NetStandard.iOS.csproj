@@ -125,9 +125,18 @@
     <BundleResource Include="Resources\smaller_box_100.png" />
     <BundleResource Include="Resources\smaller_box_75.png" />
     <BundleResource Include="Resources\OR_backR.png" />
-    <BundleResource Include="Resources\Background1.jpg" />
     <BundleResource Include="Resources\Background2.png" />
     <BundleResource Include="Resources\Background3.png" />
+    <BundleResource Include="Resources\Background4.png" />
+    <BundleResource Include="Resources\Small_Box_OWL50.png" />
+    <BundleResource Include="Resources\Small_Box_OWL60.png" />
+    <BundleResource Include="Resources\Background5.png" />
+    <BundleResource Include="Resources\Background1.png" />
+    <BundleResource Include="Resources\last.png" />
+    <BundleResource Include="Resources\Best.png" />
+    <BundleResource Include="Resources\ourU_word.png" />
+    <BundleResource Include="Resources\ourU_word2.png" />
+    <BundleResource Include="Resources\wood.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

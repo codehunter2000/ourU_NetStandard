@@ -1,16 +1,22 @@
 ﻿<Properties StartupConfiguration="{1298EA33-9553-4609-B521-36AF0813E307}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ourU_NetStandard/ourU_NetStandard/Views/EditPage.xaml">
     <Files>
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml" Line="5" Column="31" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml" Line="8" Column="4" />
-      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/ChangePasswordPage.xaml" Line="18" Column="115" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/PersonalInfoPage.xaml" Line="4" Column="16" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/LogInPage.xaml" Line="5" Column="44" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/EditPage.xaml" Line="23" Column="1" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/BookItemPage.xaml" Line="5" Column="42" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/AboutPage.xaml" Line="58" Column="41" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/AddBookPage.xaml" Line="21" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CB2E224D-8ADB-4910-9E50-44CA6EB30997" />
+  <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B37AA815-80A8-4FD5-BFC5-7E4653D794E1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/cristiantapia/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/Main.cs" relfile="ourU_NetStandard/ourU_NetStandard.iOS/Main.cs" line="20" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
