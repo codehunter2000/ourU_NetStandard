@@ -38,10 +38,6 @@ namespace ourU_NetStandard.Views
             await Navigation.PushAsync(new SearchPage());
         }
 
-        async void Personal_Clicked(object sender, System.EventArgs e)
-        {
-            await Navigation.PushAsync(new PersonalInfoPage());
-        }
 
         async void AddNewBook_Clicked(object sender, System.EventArgs e)
         {
@@ -78,14 +74,6 @@ namespace ourU_NetStandard.Views
             await Navigation.PushAsync(new SellPage());
         }
 
-        async void ChangePass_Clicked(object sender, System.EventArgs e)
-        {
-            await Navigation.PushAsync(new ChangePasswordPage());
-        }
 
-        async void Edit_Clicked(object sender, System.EventArgs e)
-        {
-            await Navigation.PushAsync(new EditPage());
-        }
     }
 }

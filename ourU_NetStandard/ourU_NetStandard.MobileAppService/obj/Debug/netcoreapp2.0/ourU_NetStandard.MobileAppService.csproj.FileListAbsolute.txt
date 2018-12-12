@@ -55,3 +55,15 @@ C:/Users/Gabriel/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStan
 /Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.AssemblyInfo.cs
 /Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.dll
 /Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.pdb
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/bin/Debug/netcoreapp2.0/SQLitePCL.Ext.dll
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/bin/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.deps.json
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/bin/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.runtimeconfig.json
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/bin/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.runtimeconfig.dev.json
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/bin/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.dll
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/bin/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.pdb
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.csprojAssemblyReference.cache
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.csproj.CoreCompileInputs.cache
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.AssemblyInfoInputs.cache
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.AssemblyInfo.cs
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.dll
+/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.MobileAppService/obj/Debug/netcoreapp2.0/ourU_NetStandard.MobileAppService.pdb

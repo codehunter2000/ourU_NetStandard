@@ -29,12 +29,9 @@
                     <BoxView HeightRequest="9"/>
                     <Button Text="View books" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="ViewBooks_Clicked"/>
                     <Button Text="Book Search/List Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="Search_Clicked"/>
-                    <Button Text="Personal Info Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="Personal_Clicked"/>
                     <Button Text="Sell Book Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="Sell_Clicked" />
                     <Button Text="Help/About Page" FontSize="20" BackgroundColor="#66b266" TextColor="White" Clicked="About_Clicked"/>
                     <BoxView HeightRequest="9"/>
-                    <Button Text="Change Password Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="ChangePass_Clicked"/>
-                    <Button Text="Edit Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="Edit_Clicked"/>
                     <Button Text="+ New Book Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="AddNewBook_Clicked"/>
                     <Button Text="Book Item Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="BookItem_Clicked"/>
                     <Button Text="Add Book Listing Page" FontSize="20" BackgroundColor="#66b2ff" Clicked="AddListing_Clicked"/>

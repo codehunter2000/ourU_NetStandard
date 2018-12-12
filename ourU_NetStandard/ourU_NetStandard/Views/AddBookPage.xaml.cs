@@ -15,8 +15,9 @@ namespace ourU_NetStandard.Views
         Services.AzureMobileService azserv = new Services.AzureMobileService();
         public AddBookPage()
         {
-            InitializeComponent();
-            azserv.Initialize();
+            InitializeComponent();var task1 = Task.Run(
+                async () => await azserv.Initialize());
+            task1.Wait();
         }
 
         public async void ListBook_Clicked(object sender, System.EventArgs e)

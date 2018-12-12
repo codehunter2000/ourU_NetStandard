@@ -21,9 +21,7 @@ namespace ourU_NetStandard.Services
         public async Task<bool> Initialize()
         {
             bool done = false;
-            if (client == null)
-            {
-                try
+            try
                 {
                     client = new MobileServiceClient("https://ouru.azurewebsites.net");
                     const string path = "Book.db";
@@ -40,7 +38,6 @@ namespace ourU_NetStandard.Services
                 {
                     string error = e.Message;
                 }
-            }
             return done;
         }
 

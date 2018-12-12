@@ -1838,19 +1838,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/tapia026/.nuget/packages/": {}
+    "/Users/kakon002/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tapia026/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
+      "projectUniqueName": "/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
       "projectName": "ourU_NetStandard.iOS",
-      "projectPath": "/Users/tapia026/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
-      "packagesPath": "/Users/tapia026/.nuget/packages/",
-      "outputPath": "/Users/tapia026/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj",
+      "projectPath": "/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/ourU_NetStandard.iOS.csproj",
+      "packagesPath": "/Users/kakon002/.nuget/packages/",
+      "outputPath": "/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/tapia026/.config/NuGet/NuGet.Config"
+        "/Users/kakon002/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1861,8 +1861,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/tapia026/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
-              "projectPath": "/Users/tapia026/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
+            "/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj": {
+              "projectPath": "/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj"
             }
           }
         }

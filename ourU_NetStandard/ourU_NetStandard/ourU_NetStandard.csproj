@@ -72,9 +72,6 @@
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\PersonalInfo.xaml.cs">
       <DependentUpon>PersonalInfo.xaml</DependentUpon>
     </Compile>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\PersonalInfoPage.xaml.cs">
-      <DependentUpon>PersonalInfoPage.xaml</DependentUpon>
-    </Compile>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\AddBookPage.xaml.cs">
       <DependentUpon>AddBookPage.xaml</DependentUpon>
     </Compile>
