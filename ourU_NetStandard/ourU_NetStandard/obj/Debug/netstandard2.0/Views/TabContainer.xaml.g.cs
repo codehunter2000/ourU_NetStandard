@@ -13,7 +13,7 @@
 namespace ourU_NetStandard.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\TabContainer.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/TabContainer.xaml")]
     public partial class TabContainer : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
