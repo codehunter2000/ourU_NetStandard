@@ -4,6 +4,9 @@
     <Files>
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml.cs" Line="77" Column="9" />
       <File FileName="ourU_NetStandard/ourU_NetStandard/Views/OurUPage.xaml" Line="35" Column="21" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/SearchPage.xaml" Line="40" Column="39" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/SearchPage.xaml.cs" Line="17" Column="100" />
+      <File FileName="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml.cs" Line="20" Column="41" />
       <File FileName="ourU_NetStandard Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -11,10 +14,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ourU__NetStandard.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9C7DBA3A-672C-4582-9553-93E9E041D707" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml.cs" relfile="ourU_NetStandard/ourU_NetStandard/Views/ListingPage.xaml.cs" line="20" column="1" />
-      <Breakpoint file="/Users/kakon002/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs" relfile="ourU_NetStandard/ourU_NetStandard/Services/AzureMobileService.cs" line="234" column="14" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

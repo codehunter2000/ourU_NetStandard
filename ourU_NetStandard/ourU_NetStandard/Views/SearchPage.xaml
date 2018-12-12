@@ -15,8 +15,29 @@
                         BackgroundColor="Gray"
                         Placeholder="Search"
                         FontAttributes="Bold"/>
-                        <Button  BackgroundColor="White" Text="Random Book Item" TextColor="Black" BorderRadius="1" Clicked="BookItem_Clicked"/>
-                    </StackLayout>
+                        <ListView x:Name="BookListView" HasUnevenRows="true">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout>
+                                            <StackLayout.GestureRecognizers>
+                                                <TapGestureRecognizer
+                                                    Tapped="BookItem_Clicked"
+                                                    NumberOfTapsRequired="1">
+                                                    </TapGestureRecognizer>
+                                                </StackLayout.GestureRecognizers>
+                                            <Label Text="Title: " Font="Bold"/>
+                                            <Label Text="{Binding theTitle}"/>
+                                            <Label Text="Author: " Font="Bold"/>
+                                            <Label Text="{Binding theAuthor}"/>
+                                            <Label Text="ISBN#: " Font="Bold"/>
+                                            <Label Text="{Binding theISBN}"/>
+                                    </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackLayout>
                 </ListView.Header>
                 <ListView.Footer>  
                     <Button
