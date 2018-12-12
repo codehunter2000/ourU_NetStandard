@@ -73,5 +73,36 @@ namespace ourU_NetStandard.iOS
         {
             throw new NotImplementedException();
         }
+
+        public async Task<bool> Authenticate()
+        {
+            var success = false;
+            var message = string.Empty;
+            try
+            {
+                // Sign in with Facebook login using a server-managed flow.
+                if (user == null)
+                {
+                    user = await App.CurrentClient
+                        .LoginAsync(UIApplication.SharedApplication.KeyWindow.RootViewController,
+                        MobileServiceAuthenticationProvider.Google, "{https://ouru.azurewebsites.net}");
+                    if (user != null)
+                    {
+                        message = string.Format("You are now signed-in as {0}.", user.UserId);
+                        success = true;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                message = ex.Message;
+            }
+
+            // Display the success or failure message.
+            UIAlertView avAlert = new UIAlertView("Sign-in result", message, null, "OK", null);
+            avAlert.Show();
+
+            return success;
+        }
     }
 }
