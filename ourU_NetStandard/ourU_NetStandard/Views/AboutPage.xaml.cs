@@ -16,5 +16,10 @@ namespace ourU_NetStandard.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async void LogIn_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new LogInPage());
+        }
+    }
 }

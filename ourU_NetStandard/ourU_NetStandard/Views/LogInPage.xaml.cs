@@ -53,5 +53,10 @@ namespace ourU_NetStandard.Views
                 await Navigation.PopAsync();
             }
         }
+
+        async void TabbedPage(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new TabContainer());
+        }
     }
 }

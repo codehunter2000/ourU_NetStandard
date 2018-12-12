@@ -1,76 +1,81 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ourU_NetStandard.Views.AboutPage">
+             x:Class="ourU_NetStandard.Views.AboutPage"
+             NavigationPage.HasBackButton="False"
+             BackgroundImage="wood">
 
-    <StackLayout Margin="10, 10"  BackgroundColor="Linen">
+    <StackLayout Margin="15, 15"  BackgroundColor="Linen">
         <ScrollView>
             <StackLayout>
-                <Image Source="HowToUse.png"></Image>
-                <StackLayout Margin="15, 15" BackgroundColor="White">
+                <Label Text="How To Use" HorizontalOptions="Center"
+                       Font="Bold,35" TextColor="Black"/>
+                    <Image Source="ourU_word2" HorizontalOptions="Center"/>
+                        
+          
                     <Label Text="How to find a book:"
                            FontSize="20"
-                           TextColor="Black"
+                           TextColor="Brown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="CenterAndExpand"/>
                     <Label Text="   1. Open Search Page"
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand"/>
                     <Label Text="   2. Enter title of book"
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand"/>
                     <Label Text="   3. Push Search button"
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand"/>
                     <Label Text="   4. Scroll the list to find"
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand"/>
                     <Label Text="the best option for you"
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="Center"/>
-                </StackLayout>
-                <StackLayout Margin="15, 15" BackgroundColor="White">
+               
+               
                     <Label Text="How to sell a book:"
                            FontSize="20"
-                           TextColor="Black"
+                           TextColor="Brown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="CenterAndExpand"/>
                     <Label Text="   1. Open Sell a Book Page"
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand"/>
                     <Label Text="   2. Push Sell Book Button"
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand"/>
                     <Label Text="   3. Enter Book Info."
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand"/>
                     <Label Text="(Title, Condition, Price)"
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="Center"/>
                     <Label Text="   4. Push Add Button"
                            FontSize="16"
-                           TextColor="Black"
+                           TextColor="SandyBrown"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand"/>
-                </StackLayout>
+                
                 <Label Text="Our Mission"
                     FontSize="20"
                     TextColor="Brown"
@@ -156,6 +161,11 @@
                     TextColor="SandyBrown"
                     VerticalOptions="Start" 
                     HorizontalOptions="Center"/>
+                
+                <Button BackgroundColor="Red" Text="Logout" Font="20" TextColor="White" Clicked="LogIn_Clicked"
+                CornerRadius="20" Margin="30,0" HorizontalOptions=" Center"  WidthRequest="300" HeightRequest="50"/>
+                <Label Text=" " />
+                
             </StackLayout>
         </ScrollView>
     </StackLayout>

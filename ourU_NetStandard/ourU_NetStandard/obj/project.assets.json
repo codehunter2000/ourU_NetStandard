@@ -4576,23 +4576,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/walke142/.nuget/packages/": {},
+    "/Users/tapia026/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj",
+      "projectUniqueName": "/Users/tapia026/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj",
       "projectName": "ourU_NetStandard",
-      "projectPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj",
-      "packagesPath": "/Users/walke142/.nuget/packages/",
-      "outputPath": "/Users/walke142/Documents/GitHub/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj",
+      "projectPath": "/Users/tapia026/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard.csproj",
+      "packagesPath": "/Users/tapia026/.nuget/packages/",
+      "outputPath": "/Users/tapia026/Desktop/ourU_NetStandard/ourU_NetStandard/ourU_NetStandard/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/walke142/.config/NuGet/NuGet.Config"
+        "/Users/tapia026/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

@@ -31,7 +31,7 @@ namespace ourU_NetStandard
         {
             //InitializeComponent();
             //AuthenticationClient = new PublicClientApplication(Constants.ApplicationID);
-            MainPage = new NavigationPage(new OurUPage());
+            MainPage = new NavigationPage(new LogInPage());
         }
 
         public static MobileServiceClient CurrentClient
