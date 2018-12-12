@@ -19,6 +19,7 @@ namespace ourU_NetStandard.Views
         public BookListPage()
         {
             InitializeComponent();
+            BookListView.ItemsSource = bookList;
             var task1 = Task.Run(
             async () => await azServ.Initialize());
             task1.Wait();

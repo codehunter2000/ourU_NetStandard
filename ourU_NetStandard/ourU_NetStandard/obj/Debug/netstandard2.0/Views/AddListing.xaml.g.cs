@@ -13,7 +13,7 @@
 namespace ourU_NetStandard.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/AddListing.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AddListing.xaml")]
     public partial class AddListing : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

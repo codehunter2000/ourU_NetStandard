@@ -3,6 +3,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="ourU_NetStandard.Views.ListingPage">
 	<ContentPage.Content>
-        
+        <ListView x:Name="listView" HasUnevenRows="true">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding userName}" LineBreakMode="WordWrap"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 	</ContentPage.Content>
 </ContentPage>

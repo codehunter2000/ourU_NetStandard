@@ -1,9 +1,11 @@
+ourU_NetStandard
+System.Runtime
+netstandard
 FormsViewGroup
 Microsoft.Azure.Mobile.Client
 Microsoft.Azure.Mobile.Client.SQLiteStore
 Microsoft.Identity.Client
 Newtonsoft.Json
-ourU_NetStandard
 PCLCrypto
 PInvoke.BCrypt
 PInvoke.Kernel32
@@ -16,7 +18,6 @@ SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core
 SQLitePCLRaw.lib.e_sqlite3
 SQLitePCLRaw.provider.e_sqlite3
-System.Runtime
 Validation
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -42,7 +43,6 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-netstandard
 System.Resources.ResourceManager
 System.Diagnostics.Debug
 System.Collections
